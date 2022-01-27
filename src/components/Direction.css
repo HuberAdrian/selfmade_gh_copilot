@@ -1,0 +1,12 @@
+.Direction {
+    height: auto;
+    width: 480px;
+
+    margin-top: 15px;
+   
+    margin: auto;
+    border-radius: 10px;
+    border-color: black;
+
+}
+
