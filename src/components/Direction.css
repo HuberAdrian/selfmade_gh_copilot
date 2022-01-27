@@ -6,7 +6,25 @@
    
     margin: auto;
     border-radius: 10px;
+    border: solid;
     border-color: black;
-
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #cecdc5;
+    overflow: hidden;
 }
 
+.Direction h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: black;
+    background-color: #cecdc5;
+}
+
+.Direction p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: black;
+    background-color: #cecdc5;
+}
