@@ -18,8 +18,12 @@ function Home() {
         <Direction caption="Git / GitHub"/>
         <Direction caption="React" description="Cheatsheets, Templates, Docs..." />
 
-        
         <Divider />
+
+        <Direction caption="SEO & Webperformance" />
+        <Direction caption="Interview Preparation" description="HTML, CSS, JS, React, Data Structures, Algorithms,..." />
+        <Direction caption="Playing Coding Games" />        
+
 
       </div>
     );
