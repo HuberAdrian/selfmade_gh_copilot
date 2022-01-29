@@ -6,13 +6,16 @@ import "./Home.css"
 import {Routes, Route, Link} from "react-router-dom";
 
 function Home() {
-    return (
-    <div>    
-    <h1>Selfmade Github Copilot*</h1>
+    return ( 
+      
+    <div>   
+    <h1>Selfmade Github Copilot*</h1> 
     <h4>*for Web development</h4>
-
+  
     <SearchBar placeholder="Search for keywords" data="test" />
 
+
+    {/* Links with Directions */}
     <Link to="/Plan-Start">
       <Direction caption="Plan, Start a Project" description="CRA Doc, Inspiration, ..." />
     </Link>
@@ -34,17 +37,49 @@ function Home() {
         
     <Divider />
 
+    {/* Links with Directions for less used directions*/}
     <Link to="/SEO">
       <Direction caption="SEO & Webperformance" />
     </Link>
     <Link to="/Interview">
       <Direction caption="Interview Preparation" description="HTML, CSS, JS, React, Data Structures, Algorithms,..." />
     </Link>
-    <Link to="/SEO">
+    <Link to="/Games">
       <Direction caption="Playing Coding Games" />
     </Link>
         
-                
+    
+    {/* Routes for directions*/}
+    <Routes>
+      <Route exact path="/Plan-Start" element={<Home/>} />
+    </Routes>
+    <Routes>
+      <Route exact path="/HTML-CSS" element={<Home/>} />
+    </Routes>
+    <Routes>
+      <Route exact path="/JavaScript" element={<Home/>} />
+    </Routes>
+    <Routes>
+      <Route exact path="/Media" element={<Home/>} />
+    </Routes> 
+    <Routes>
+      <Route exact path="/Git-Github" element={<Home/>} />
+    </Routes>  
+    <Routes>
+      <Route exact path="/React" element={<Home/>} />
+    </Routes>
+    
+    {/* Routes for less used directions*/}
+    <Routes>
+      <Route exact path="/SEO" element={<Home/>} />
+    </Routes> 
+    <Routes>
+      <Route exact path="/Interview" element={<Home/>} />
+    </Routes>
+    <Routes>
+      <Route exact path="/Games" element={<Home/>} />
+    </Routes>
+
 
 
       </div>
