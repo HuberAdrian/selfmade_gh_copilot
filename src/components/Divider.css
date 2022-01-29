@@ -1,0 +1,16 @@
+.divider-div {
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    width: 480px;
+    
+}
+
+.divider {
+    border-top: 4px solid #fff;
+    border-radius: 5px;
+}
+
+.divider-div h4 {
+    text-align: left;
+}
