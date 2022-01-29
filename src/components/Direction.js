@@ -3,9 +3,9 @@ import React from 'react';
 import "./Direction.css";
 
 function Direction(props) {
-    const {caption, description, colour} = props;
+    const {caption, description} = props;
     return (
-        <div className='Direction' style={{backgroundColor: colour}}>
+        <div className='Direction'>
             <h2>{caption}</h2>
             <p>{description}</p>
     
