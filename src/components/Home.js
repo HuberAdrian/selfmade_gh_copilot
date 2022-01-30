@@ -23,7 +23,7 @@ function Home() {
       <Direction caption="HTML, CSS" description="Templates, UI Components, Cheatsheets..." />
     </Link>
     <Link to="/JavaScript">
-      <Direction caption="JavaScript" description="Cheatsheets, Templates, Docs..." />
+      <Direction caption="JavaScript" description="Cheatsheets, Docs, best Practices..." />
     </Link>
     <Link to="/Media">
       <Direction caption="Media" description="Pictures, Videos, Fonts, Icons, Chart libraries ..." />

@@ -3,11 +3,17 @@ import React from 'react';
 import "./Direction.css";
 
 function Direction(props) {
-    const {caption, description} = props;
+    const {caption, description=""} = props;
+
+    let add_class = "";
+    if (description === "") {
+        add_class = " withoutDesc";
+    }
+
     return (
         <div className='Direction'>
-            <h2>{caption}</h2>
-            <p>{description}</p>
+            <h2 className={add_class}>{caption}</h2>
+            {description != "" && <p>{description}</p>}
     
         </div>
     )

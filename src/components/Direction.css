@@ -17,19 +17,27 @@
 }
 
 .Direction h2 {
-    margin-bottom: 0px;
-    margin-top: 0px;
+    
     color: black;
     background-color: #cecdc5;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .Direction p {
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin: auto;
     color: black;
     background-color: #cecdc5;
 }
+.Direction .withoutDesc {
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
 
-
+.Direction:hover {
+    background-color: #fff;
+  }
+  
 .Direction:hover > h2 { background-color: #fff; }
 .Direction:hover > p { background-color: #fff; }
+
