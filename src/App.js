@@ -42,6 +42,26 @@ function App() {
       <Route exact path="/Games" element={<Home/>} />
     </Routes>
 
+    {/*Routes for Git_GitHub*/}
+    <Routes>
+      <Route exact path="/Git-Github/How-Git-Works/" element={<Home/>} />
+    </Routes>
+    <Routes>
+      <Route exact path="/Git-Github/Configuration-and-Setup" element={<Home/>} />
+    </Routes>
+    <Routes>
+      <Route exact path="/Git-Github/Changes" element={<Home/>} />
+    </Routes>
+    <Routes>
+      <Route exact path="/Git-Github/Tags" element={<Home/>} />
+    </Routes>
+    <Routes>
+      <Route exact path="/Git-Github/Branches" element={<Git_Github />} />
+    </Routes>  
+    <Routes>
+      <Route exact path="/Git-Github/Collaborating" element={<Home/>} />
+    </Routes>
+
   </div>
   );
 }
