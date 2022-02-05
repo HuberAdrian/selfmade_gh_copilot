@@ -7,6 +7,7 @@ import {Routes, Route, Link} from "react-router-dom";
 import Git_Github from '../Git_Github/Git_Github';
 
 function Home() {
+    console.log("test Home");
     return ( 
       
     <div>   
@@ -50,38 +51,6 @@ function Home() {
     </Link>
 
     
-
-    {/* Routes for less used directions*/}
-    <Routes>
-      <Route path="/SEO" element={<Home/>} />
-    </Routes> 
-    <Routes>
-      <Route path="/Interview" element={<Home/>} />
-    </Routes>
-    <Routes>
-      <Route path="/Games" element={<Home/>} />
-    </Routes>
-
-
-    {/* Routes for directions */}
-    <Routes>
-      <Route path="/Plan-Start" element={<Home/>} />
-    </Routes>
-    <Routes>
-      <Route path="/HTML-CSS" element={<Home/>} />
-    </Routes>
-    <Routes>
-      <Route path="/JavaScript" element={<Home/>} />
-    </Routes>
-    <Routes>
-      <Route path="/Media" element={<Home/>} />
-    </Routes>
-    <Routes>
-      <Route path="/Git-Github" element={<Git_Github />} />
-    </Routes>  
-    <Routes>
-      <Route path="/React" element={<Home/>} />
-    </Routes>
 
     </div>
     );
