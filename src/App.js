@@ -9,7 +9,7 @@ function App() {
   return (
   <div className="App">
     <Routes>
-      <Route path="/" element={<Home />}> </Route>
+      <Route path="/" element={<Home />} />
 
       {/* Routes for directions */}
         <Route path="/Plan-Start" element={<Home />} />
@@ -18,14 +18,7 @@ function App() {
         <Route path="/Media" element={<Home />} />
         <Route path="/Git-Github/*" element={<Git_Github />}>
           
-                {/*Routes for Git_GitHub*/}
-                
-              <Route path="How-Git-Works" element={<Navigate to="/" />} />
-              <Route path="Configuration-and-Setup" element={<Home />} />
-              <Route path="Changes" element={<Home />} />
-              <Route path="Tags" element={<Home />} />
-              <Route path="Branches" element={<Git_Github />} />
-              <Route path="Collaborating" element={<Home />} />
+        
           
         </Route> 
         <Route path="/React" element={<Home />} />

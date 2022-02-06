@@ -3,7 +3,7 @@ import "./Git_Github.css";
 import Direction from '../components/Direction';
 import Divider from '../components/Divider';
 import SearchBar from '../components/SearchBar';
-import {Routes, Route, Link} from "react-router-dom";
+import {Routes, Route, Link, Navigate} from "react-router-dom";
 import Home from '../components/Home.js';
 
 function Git_Github() {
@@ -27,6 +27,20 @@ function Git_Github() {
       <Link to="/Git-Github/Collaborating">
         <Direction caption="Collaborating" description="" />
       </Link>
+
+
+
+        {/*Routes for Git_GitHub*/}
+        <Routes>
+              <Route path="How-Git-Works" element={<Navigate replace to="/" />} />
+              <Route path="Configuration-and-Setup" element={<Home />} />
+              <Route path="Changes" element={<Home />} />
+              <Route path="Tags" element={<Home />} />
+              <Route path="Branches" element={<Git_Github />} />
+              <Route path="Collaborating" element={<Home />} />  
+          
+        </Routes>      
+        
     
   </div>;
 }
