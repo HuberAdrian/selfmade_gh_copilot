@@ -26,20 +26,8 @@ function Git_Github() {
       </Link>
       <Link to="/Git-Github/Collaborating">
         <Direction caption="Collaborating" description="" />
-      </Link>
+      </Link>    
 
-
-
-        {/*Routes for Git_GitHub*/}
-        <Routes>
-              <Route path="How-Git-Works" element={<Navigate replace to="/" />} />
-              <Route path="Configuration-and-Setup" element={<Home />} />
-              <Route path="Changes" element={<Home />} />
-              <Route path="Tags" element={<Home />} />
-              <Route path="Branches" element={<Git_Github />} />
-              <Route path="Collaborating" element={<Home />} />  
-          
-        </Routes>      
         
     
   </div>;

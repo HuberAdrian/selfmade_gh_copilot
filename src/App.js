@@ -9,27 +9,33 @@ function App() {
   return (
   <div className="App">
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" index element={<Home />} />
 
       {/* Routes for directions */}
         <Route path="/Plan-Start" element={<Home />} />
         <Route path="/HTML-CSS" element={<Home />} />
         <Route path="/JavaScript" element={<Home />} />
         <Route path="/Media" element={<Home />} />
-        <Route path="/Git-Github/*" element={<Git_Github />}>
-          
-        
-          
-        </Route> 
+        <Route path="/Git-Github" element={<Git_Github />} />
         <Route path="/React" element={<Home />} />
         
-        
         {/* Routes for less used directions*/}
-      
         <Route path="/SEO" element={<Home />} />
         <Route path="/Interview" element={<Home />} />
         <Route path="/Games" element={<Home />} />
       
+
+        {/*Routes for Git_GitHub*/}
+        <Route path="/Git-Github/How-Git-Works" element={<Navigate replace to="/" />} />
+        <Route path="/Git-Github/Configuration-and-Setup" element={<Home />} />
+        <Route path="/Git-Github/Changes" element={<Home />} />
+        <Route path="/Git-Github/Tags" element={<Home />} />
+        <Route path="/Git-Github/Branches" element={<Git_Github />} />
+        <Route path="/Git-Github/Collaborating" element={<Home />} />  
+  
+
+
+
     </Routes>
   
       
