@@ -5,10 +5,11 @@ import Divider from '../components/Divider';
 import SearchBar from '../components/SearchBar';
 import {Routes, Route, Link, Navigate} from "react-router-dom";
 import Home from '../components/Home.js';
+import Navbar from '../components/Navbar';
 
 function Git_Github() {
-  console.log("GITHUB")
   return <div className="Git_Github">
+      <Navbar />
       <Link to="/Git-Github/How-Git-Works">
         <Direction caption="How Git works" description="" />
       </Link>
