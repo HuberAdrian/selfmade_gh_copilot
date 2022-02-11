@@ -3,6 +3,7 @@ import Home from './components/Home.js';
 import {Routes, Route, Navigate} from "react-router-dom";
 import Git_Github from './Git_Github/Git_Github.js';
 import React from 'react';
+import How_git_works from './Git_Github/How_git_works.js';
 
 function App() {
   console.log("test App");
@@ -26,7 +27,7 @@ function App() {
       
 
         {/*Routes for Git_GitHub*/}
-        <Route path="/Git-Github/How-Git-Works" element={<Navigate replace to="/" />} />
+        <Route path="/Git-Github/How-Git-Works" element={<How_git_works />} />
         <Route path="/Git-Github/Configuration-and-Setup" element={<Home />} />
         <Route path="/Git-Github/Changes" element={<Home />} />
         <Route path="/Git-Github/Tags" element={<Home />} />
