@@ -7,6 +7,7 @@ import { NotionRenderer } from 'react-notion';
 function How_git_works() {
 
     const [data, setData] = useState();
+    const [loaded, setLoaded] = useState(false);
 
 
     useEffect(() => {
@@ -15,6 +16,7 @@ function How_git_works() {
         .then(dat => {
             console.log(dat)
             setData(dat);
+            setLoaded(true)
         }); 
 
        
@@ -23,7 +25,7 @@ function How_git_works() {
     
   return <div>
      
-      <NotionRenderer blockMap={data} fullPage={false} darkMode={false} />
+    {loaded && <NotionRenderer blockMap={data} fullPage={false} darkMode={true} /> } 
   </div>;
 }
 
