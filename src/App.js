@@ -3,7 +3,7 @@ import Home from './components/Home.js';
 import {Routes, Route, Navigate} from "react-router-dom";
 import Git_Github from './Git_Github/Git_Github.js';
 import React from 'react';
-import How_git_works from './Git_Github/How_git_works.js';
+import Notion from './components/Notion';
 
 function App() {
   console.log("test App");
@@ -27,15 +27,15 @@ function App() {
       
 
         {/*Routes for Git_GitHub*/}
-        <Route path="/Git-Github/How-Git-Works" element={<How_git_works />} />
-        <Route path="/Git-Github/Configuration-and-Setup" element={<Home />} />
+        <Route path="/Git-Github/How-Git-Works" element={<Notion nav={true} endpoint="001e5bd586fb4a71a8303498527171be" />} />
+        <Route path="/Git-Github/Configuration-and-Setup" element={<Notion nav={true} endpoint="8c76bbd5bb8f4662bbe038d93fa39802" />} />
         <Route path="/Git-Github/Changes" element={<Home />} />
         <Route path="/Git-Github/Tags" element={<Home />} />
         <Route path="/Git-Github/Branches" element={<Git_Github />} />
         <Route path="/Git-Github/Collaborating" element={<Home />} />  
   
 
-
+  
 
     </Routes>
   

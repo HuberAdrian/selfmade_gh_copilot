@@ -34,7 +34,7 @@ function Notion(props) {
     
   return <div>
     {nav && <Navbar />}
-    {loaded && <NotionRenderer blockMap={data} fullPage={nav} darkMode={true} /> } 
+    {loaded && <NotionRenderer blockMap={data} fullPage={nav} darkMode={true} /> }
   </div>;
 }
 
