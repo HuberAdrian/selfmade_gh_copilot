@@ -17,7 +17,7 @@ function Git_Github() {
         <Direction caption="Configuration and setup" description="" />
       </Link>
       <Link to="/Git-Github/Changes">
-        <Direction caption="save, compare, ... Changes" description="" />
+        <Direction caption="save, compare, undo Commits" description="" />
       </Link>
       <Link to="/Git-Github/Tags">
       <Direction caption="Tags" description="" />
