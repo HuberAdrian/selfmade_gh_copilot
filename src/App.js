@@ -29,8 +29,7 @@ function App() {
         {/*Routes for Git_GitHub*/}
         <Route path="/Git-Github/How-Git-Works" element={<Notion nav={true} endpoint="001e5bd586fb4a71a8303498527171be" />} />
         <Route path="/Git-Github/Configuration-and-Setup" element={<Notion nav={true} endpoint="8c76bbd5bb8f4662bbe038d93fa39802" />} />
-        <Route path="/Git-Github/Changes" element={<Notion nav={true} endpoint="2452007db2a343e8b09a6ff0808ded77" />} />
-        <Route path="/Git-Github/Undo-ReWrite" element={<Notion nav={true} endpoint="df7c472c00b54d12a470a3dd02ac5aab" />} />
+        
         <Route path="/Git-Github/Tags" element={<Home />} />
         <Route path="/Git-Github/Branches" element={<Git_Github />} />
         <Route path="/Git-Github/Collaborating" element={<Home />} />  

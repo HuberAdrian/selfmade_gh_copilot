@@ -16,13 +16,7 @@ function Git_Github() {
       <Link to="/Git-Github/Configuration-and-Setup">
         <Direction caption="Configuration and setup" description="" />
       </Link>
-      <Link to="/Git-Github/Changes">
-        <Direction caption="save, compare, undo Commits" description="" />
-      </Link>
-      <Link to="/Git-Github/Undo-ReWrite">
-        <Direction caption="Undo Commits, Rewrite Hostory" description="" />
-      </Link>
-      <a href="https://www.google.com/" rel="noopener noreferrer" target="_blank">
+      <a href="https://elderly-forsythia-b52.notion.site/Safe-Compare-Undo-Changes-2452007db2a343e8b09a6ff0808ded77" rel="noopener noreferrer" target="_blank">
       <Direction caption="save, compare, undo Commits" description="" />
       </a>
       <Link to="/Git-Github/Tags">
@@ -33,7 +27,7 @@ function Git_Github() {
       </Link>
       <Link to="/Git-Github/Collaborating">
         <Direction caption="Collaborating" description="" />
-      </Link>    
+      </Link>
       
         
     
