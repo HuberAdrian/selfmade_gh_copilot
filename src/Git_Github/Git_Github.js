@@ -19,6 +19,12 @@ function Git_Github() {
       <Link to="/Git-Github/Changes">
         <Direction caption="save, compare, undo Commits" description="" />
       </Link>
+      <Link to="/Git-Github/Undo-ReWrite">
+        <Direction caption="Undo Commits, Rewrite Hostory" description="" />
+      </Link>
+      <a href="https://www.google.com/" rel="noopener noreferrer" target="_blank">
+      <Direction caption="save, compare, undo Commits" description="" />
+      </a>
       <Link to="/Git-Github/Tags">
       <Direction caption="Tags" description="" />
       </Link>
@@ -28,7 +34,7 @@ function Git_Github() {
       <Link to="/Git-Github/Collaborating">
         <Direction caption="Collaborating" description="" />
       </Link>    
-
+      
         
     
   </div>;
