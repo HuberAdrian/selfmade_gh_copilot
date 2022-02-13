@@ -19,6 +19,12 @@ function Git_Github() {
       <a href="https://elderly-forsythia-b52.notion.site/Safe-Compare-Undo-Changes-2452007db2a343e8b09a6ff0808ded77" rel="noopener noreferrer" target="_blank">
       <Direction caption="save, compare, undo Commits" description="" />
       </a>
+      <a href="https://elderly-forsythia-b52.notion.site/Compare-Commits-Inspecting-Repository-e5a22d63f2774b518a811f53a7a3900a" rel="noopener noreferrer" target="_blank">
+      <Direction caption="Compare Commits, Inspecting Repository" description="" />
+      </a>
+      <Link to="/Git-Github/GitIgnore">
+      <Direction caption=".gitignore" description="exclude certain files from the repository" />
+      </Link>
       <Link to="/Git-Github/Tags">
       <Direction caption="Tags" description="" />
       </Link>
