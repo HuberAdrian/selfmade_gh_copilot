@@ -4,9 +4,10 @@ import {Routes, Route, Navigate} from "react-router-dom";
 import Git_Github from './Git_Github/Git_Github.js';
 import React from 'react';
 import Notion from './components/Notion';
+import Git_Collaborating from './Git_Github/Git_Collaborating';
 
 function App() {
-  console.log("test App");
+  
   return (
   <div className="App">
     <Routes>
@@ -32,7 +33,7 @@ function App() {
         <Route path="/Git-Github/GitIgnore" element={<Notion nav={true} endpoint="6f8390f7535e4669bb7af8cad05aeaa3" />} />
         <Route path="/Git-Github/Tags" element={<Notion nav={true} endpoint="3c21faf6cf1e4a4a95b5be84c1f07423" />} />
         <Route path="/Git-Github/Branches" element={<Notion nav={true} endpoint="7a3939d2a42c45a3a4ad18c29cec2f33" />} />
-        <Route path="/Git-Github/Collaborating" element={<Home />} />  
+        <Route path="/Git-Github/Collaborating" element={<Git_Collaborating />} />  
   
         
         
