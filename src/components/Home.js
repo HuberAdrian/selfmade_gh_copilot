@@ -35,6 +35,9 @@ function Home() {
     </Link>
     <Link to="/React">
       <Direction caption="React" description="Cheatsheets, Templates, Docs..." />
+    </Link> 
+    <Link to="/Testing">
+      <Direction caption="Testing" description="Jest, etc" />
     </Link>     
         
     <Divider />
