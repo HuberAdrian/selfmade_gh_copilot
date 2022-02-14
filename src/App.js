@@ -5,6 +5,7 @@ import Git_Github from './Git_Github/Git_Github.js';
 import React from 'react';
 import Notion from './components/Notion';
 import Git_Collaborating from './Git_Github/Git_Collaborating';
+import NotFound from './components/NotFound';
 
 function App() {
   
@@ -37,7 +38,8 @@ function App() {
         <Route path="/Git-Github/Collaborating/Synching" element={<Notion nav={true} endpoint="b6674d34c9554ee4bb196480fdbe5156" />} />
         <Route path="/Git-Github/Collaborating/Workflows" element={<Notion nav={true} endpoint="b9ae9348dbc44888829df96b36020fdc" />} />
         
-        
+        {/*Error Route*/}
+        <Route path='*' element={<NotFound />} />
 
     </Routes>
   
