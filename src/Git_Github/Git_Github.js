@@ -3,7 +3,7 @@ import "./Git_Github.css";
 import Direction from '../components/Direction';
 import Divider from '../components/Divider';
 import SearchBar from '../components/SearchBar';
-import {Routes, Route, Link, Navigate} from "react-router-dom";
+import {Link} from "react-router-dom";
 import Home from '../components/Home.js';
 import Navbar from '../components/Navbar';
 

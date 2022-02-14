@@ -1,8 +1,19 @@
 import React from 'react'
+import Direction from '../components/Direction'
+import Navbar from '../components/Navbar'
+import {Link} from 'react-router-dom';
 
 function Git_Collaborating() {
   return (
-    <div>Git_Collaborating</div>
+    <div>
+        <Navbar />
+        <Link to="/Git-Github/Collaborating/Synching">
+        <Direction caption="Synching" description="" />
+      </Link>
+      <Link to="/Git-Github/Collaborating/Workflows">
+        <Direction caption="Workflows" description="" />
+      </Link>
+    </div>
   )
 }
 
