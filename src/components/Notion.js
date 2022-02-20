@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react';
 
-import "react-notion/src/styles.css";
 import "prismjs/themes/prism-tomorrow.css";
+import "react-notion/src/styles.css";
 import { NotionRenderer } from 'react-notion';
-import 'prismjs/components/prism-javascript';
+import "./Notion_Styles.css";
 
 import Navbar from './Navbar';
 
