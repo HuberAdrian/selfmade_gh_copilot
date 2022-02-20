@@ -1,3 +1,17 @@
+# Selfmade GitHub Copilot
+
+### About this Project
+I must admit, the name "Selfmade Github Copilot" is a bit exaggerated. 
+It's more like an interactive program for web development ressources.
+
+### Problems with other ressources
+There are a lot of repositories and webistes with usefull ressources, but they aren't good organized.
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
