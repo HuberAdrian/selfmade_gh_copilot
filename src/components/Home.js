@@ -52,7 +52,9 @@ function Home() {
     <Link to="/Games">
       <Direction caption="Playing Coding Games" />
     </Link>
-
+    <a href="https://serverless.css-tricks.com" rel="noopener noreferrer" target="_blank">
+      <Direction caption="Serverless" description="" />
+      </a>
     
 
     </div>
