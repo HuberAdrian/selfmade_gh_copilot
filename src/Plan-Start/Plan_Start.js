@@ -6,8 +6,11 @@ import Navbar from '../components/Navbar';
 function Plan_Start() {
   return <div>
     <Navbar />
-      <Link to="/">
+    <Link to="/">
       <Direction caption="Checklist before you start" description="" />
+    </Link>
+    <Link to="/">
+      <Direction caption="create-react-app" description="" />
     </Link>
   </div>;
 }
