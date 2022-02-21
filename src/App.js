@@ -6,6 +6,7 @@ import React from 'react';
 import Notion from './components/Notion';
 import Git_Collaborating from './Git_Github/Git_Collaborating';
 import NotFound from './components/NotFound';
+import Plan_Start from './Plan-Start/Plan_Start';
 
 function App() {
   
@@ -15,7 +16,7 @@ function App() {
       <Route path="/" index element={<Home />} />
 
       {/* Routes for directions */}
-        <Route path="/Plan-Start" element={<Home />} />
+        <Route path="/Plan-Start" element={<Plan_Start />} />
         <Route path="/HTML-CSS" element={<Home />} />
         <Route path="/JavaScript" element={<Home />} />
         <Route path="/Media" element={<Home />} />
