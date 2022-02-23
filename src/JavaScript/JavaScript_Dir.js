@@ -9,13 +9,13 @@ function JavaScript_Dir() {
     <Link to="/">
       <Direction caption="Documentation" description="" />
     </Link>
-    <Link to="/">
+    <Link to="/JavaScript/Basics">
       <Direction caption="Basics (personal notes)" description="Operatons on strings, Arrays, Objects, Classes" />
     </Link>
-    <Link to="/">
+    <Link to="/JavaScript/Advanced">
       <Direction caption="Avanced" description="" />
     </Link>
-    <Link to="/">
+    <Link to="/JavaScript/How-JS-works">
       <Direction caption="How JS works under the hood" description="" />
     </Link>
     <Link to="/">
