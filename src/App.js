@@ -7,6 +7,7 @@ import Notion from './components/Notion';
 import Git_Collaborating from './Git_Github/Git_Collaborating';
 import NotFound from './components/NotFound';
 import Plan_Start from './Plan-Start/Plan_Start';
+import Html_css from './HTML-CSS/Html_css';
 
 function App() {
   
@@ -17,7 +18,7 @@ function App() {
 
       {/* Routes for directions */}
         <Route path="/Plan-Start" element={<Plan_Start />} />
-        <Route path="/HTML-CSS" element={<Home />} />
+        <Route path="/HTML-CSS" element={<Html_css />} />
         <Route path="/JavaScript" element={<Home />} />
         <Route path="/Media" element={<Home />} />
         <Route path="/Git-Github" element={<Git_Github />} />
