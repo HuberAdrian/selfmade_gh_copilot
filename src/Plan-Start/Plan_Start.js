@@ -12,6 +12,12 @@ function Plan_Start() {
     <Link to="/">
       <Direction caption="create-react-app" description="" />
     </Link>
+    <Link to="/">
+      <Direction caption="Ideas/ Inspiration" description="" />
+    </Link>
+    <Link to="/">
+      <Direction caption="Components a Webiste should have" description="" />
+    </Link>
   </div>;
 }
 
