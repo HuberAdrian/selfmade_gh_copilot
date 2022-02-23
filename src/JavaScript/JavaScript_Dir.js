@@ -13,10 +13,13 @@ function JavaScript_Dir() {
       <Direction caption="Basics (personal notes)" description="Operatons on strings, Arrays, Objects, Classes" />
     </Link>
     <Link to="/">
-      <Direction caption="Asynchronous callbacks" description="" />
+      <Direction caption="Avanced" description="" />
     </Link>
     <Link to="/">
-      <Direction caption="Fetch API and JSON" description="Buttons, Navbars" />
+      <Direction caption="How JS works under the hood" description="" />
+    </Link>
+    <Link to="/">
+      <Direction caption="Tools" description="" />
     </Link>
     <Link to="/">
       <Direction caption="Best practices" description="" />
