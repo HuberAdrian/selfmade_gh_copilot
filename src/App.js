@@ -8,6 +8,7 @@ import Git_Collaborating from './Git_Github/Git_Collaborating';
 import NotFound from './components/NotFound';
 import Plan_Start from './Plan-Start/Plan_Start';
 import Html_css from './HTML-CSS/Html_css';
+import JavaScript_Dir from './JavaScript/JavaScript_Dir';
 
 function App() {
   
@@ -19,7 +20,7 @@ function App() {
       {/* Routes for directions */}
         <Route path="/Plan-Start" element={<Plan_Start />} />
         <Route path="/HTML-CSS" element={<Html_css />} />
-        <Route path="/JavaScript" element={<Home />} />
+        <Route path="/JavaScript" element={<JavaScript_Dir />} />
         <Route path="/Media" element={<Home />} />
         <Route path="/Git-Github" element={<Git_Github />} />
         <Route path="/React" element={<Home />} />
