@@ -9,6 +9,10 @@ import NotFound from './components/NotFound';
 import Plan_Start from './Plan-Start/Plan_Start';
 import Html_css from './HTML-CSS/Html_css';
 import JavaScript_Dir from './JavaScript/JavaScript_Dir';
+import JS_Basics from './JavaScript/JS_Basics';
+import JS_Advanced from './JavaScript/JS_Advanced';
+import JS_How_JS_works from './JavaScript/JS_How_JS_works';
+import JS_Tools from './JavaScript/JS_Tools';
 
 function App() {
   
@@ -17,7 +21,7 @@ function App() {
     <Routes>
       <Route path="/" index element={<Home />} />
 
-      {/* Routes for directions */}
+      {/* Routes for main directions */}
         <Route path="/Plan-Start" element={<Plan_Start />} />
         <Route path="/HTML-CSS" element={<Html_css />} />
         <Route path="/JavaScript" element={<JavaScript_Dir />} />
@@ -29,7 +33,12 @@ function App() {
         <Route path="/SEO" element={<Home />} />
         <Route path="/Interview" element={<Home />} />
         <Route path="/Games" element={<Home />} />
-      
+
+        {/*Routes for JavaScript */}
+        <Route path="/JavaScript/Basics" element={<JS_Basics />} />
+        <Route path="/JavaScript/Advanced" element={<JS_Advanced />} />
+        <Route path="/JavaScript/How-JS-works" element={<JS_How_JS_works />} />
+        <Route path="/JavaScript/Tools" element={<JS_Tools />} />
 
         {/*Routes for Git_GitHub*/}
         <Route path="/Git-Github/How-Git-Works" element={<Notion nav={true} endpoint="001e5bd586fb4a71a8303498527171be" />} />

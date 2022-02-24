@@ -6,9 +6,9 @@ import Navbar from '../components/Navbar';
 function JavaScript_Dir() {
   return <div>
     <Navbar />
-    <Link to="/">
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="noopener noreferrer" target="_blank">
       <Direction caption="Documentation" description="" />
-    </Link>
+    </a>
     <Link to="/JavaScript/Basics">
       <Direction caption="Basics (personal notes)" description="Operatons on strings, Arrays, Objects, Classes" />
     </Link>
@@ -18,8 +18,8 @@ function JavaScript_Dir() {
     <Link to="/JavaScript/How-JS-works">
       <Direction caption="How JS works under the hood" description="" />
     </Link>
-    <Link to="/">
-      <Direction caption="Tools" description="" />
+    <Link to="/JavaScript/Tools">
+      <Direction caption="Tools" description="to make development simpler" />
     </Link>
     <Link to="/">
       <Direction caption="Best practices" description="" />

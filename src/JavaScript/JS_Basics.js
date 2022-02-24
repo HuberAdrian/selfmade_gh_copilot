@@ -7,14 +7,17 @@ function JS_Basics() {
   return (
     <div>
         <Navbar />
-    <Link to="/">
-      <Direction caption="Documentation" description="" />
+    <Link to="/JavaScript/Basics/Strings">
+      <Direction caption="Strings" description="" />
     </Link>
-    <Link to="/">
-      <Direction caption="Basics (personal notes)" description="Operatons on strings, Arrays, Objects, Classes" />
+    <Link to="/JavaScript/Basics/Arrays">
+      <Direction caption="Arrays" description="" />
     </Link>
-    <Link to="/">
-      <Direction caption="Avanced" description="" />
+    <Link to="/JavaScript/Basics/Objects">
+      <Direction caption="Objects" description="" />
+    </Link>
+    <Link to="/JavaScript/Basics/Classes">
+      <Direction caption="Classes" description="" />
     </Link>
     </div>
   )
