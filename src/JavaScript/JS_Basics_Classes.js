@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar';
 function JS_Basics_Classes() {
   return (
     <div>
-          <Navbar />
+    <Navbar />
     <Link to="/JavaScript/Basics/Classes/Basics">
       <Direction caption="Basics" description="" />
     </Link>
@@ -16,7 +16,7 @@ function JS_Basics_Classes() {
     <Link to="/JavaScript/Basics/Classes/Static-Methods-and-Chaining">
       <Direction caption="Statics Methods and Chaining" description="" />
     </Link>
-    <Link to="/JavaScript/Basics/Classes/iheritance-and-extend">
+    <Link to="/JavaScript/Basics/Classes/Inheritance-and-extend">
       <Direction caption="inheritance and class extend" description="" />
     </Link>
     <Link to="/JavaScript/Basics/Classes/Class-vs-Function">
