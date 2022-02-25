@@ -17,7 +17,7 @@ function JS_Basics_Objects() {
       <Direction caption="Destructuring and Concatenation" description="" />
     </Link>
     <Link to="/JavaScript/Basics/Objects/Optional-Chaining">
-      <Direction caption="Optional Chaining" description="access to an property" />
+      <Direction caption="Optional Chaining" description="access to a property without risking an error" />
     </Link>
     <Link to="/JavaScript/Basics/Objects/Immutability">
       <Direction caption="Immutability" description="" />
