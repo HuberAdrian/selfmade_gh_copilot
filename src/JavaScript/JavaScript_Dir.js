@@ -10,7 +10,7 @@ function JavaScript_Dir() {
       <Direction caption="Documentation" description="" />
     </a>
     <Link to="/JavaScript/Basics">
-      <Direction caption="Basics (personal notes)" description="Operatons on strings, Arrays, Objects, Classes" />
+      <Direction caption="Basics (personal notes)" description="Operatons on strings, Arrays, Objects, Classes, Functions" />
     </Link>
     <Link to="/JavaScript/Advanced">
       <Direction caption="Avanced" description="" />

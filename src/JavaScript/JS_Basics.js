@@ -19,6 +19,9 @@ function JS_Basics() {
     <Link to="/JavaScript/Basics/Classes">
       <Direction caption="Classes" description="" />
     </Link>
+    <Link to="/JavaScript/Basics/Functions">
+      <Direction caption="Functions" description="Arrow Functions, passing Functions as arguments" />
+    </Link>
     </div>
   )
 }
