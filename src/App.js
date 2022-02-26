@@ -15,6 +15,8 @@ import JS_How_JS_works from './JavaScript/JS_How_JS_works';
 import JS_Tools from './JavaScript/JS_Tools';
 import JS_Basics_Classes from './JavaScript/JS_Basics_Classes';
 import JS_Basics_Objects from './JavaScript/JS_Basics_Objects';
+import JS_Basics_Arrays from './JavaScript/JS_Basics_Arrays';
+import React_Dir from './React/React_Dir';
 
 function App() {
   
@@ -29,7 +31,7 @@ function App() {
         <Route path="/JavaScript" element={<JavaScript_Dir />} />
         <Route path="/Media" element={<Home />} />
         <Route path="/Git-Github" element={<Git_Github />} />
-        <Route path="/React" element={<Home />} />
+        <Route path="/React" element={<React_Dir />} />
         
         {/* Routes for less used directions*/}
         <Route path="/SEO" element={<Home />} />
@@ -44,15 +46,16 @@ function App() {
         <Route path="/JavaScript/How-JS-works" element={<JS_How_JS_works />} />
         <Route path="/JavaScript/Tools" element={<JS_Tools />} />
 
-        {/*Routes for JavaScript */}
+        {/*Routes for JavaScript/Basics */}
         <Route path="/JavaScript/Basics/Strings" element={<Notion nav={true} endpoint="8483b4d6143b4db2866db65d3b1b0864" />} />
-        <Route path="/JavaScript/Basics/Arrays" element={<Notion nav={true} endpoint="75ccb7bce3634f7bb2744faf822b754e" />} />
+        <Route path="/JavaScript/Basics/Arrays" element={<JS_Basics_Arrays />} />
         <Route path="/JavaScript/Basics/Objects" element={<JS_Basics_Objects/>} />
         <Route path="/JavaScript/Basics/Classes" element={<JS_Basics_Classes />} />
+        <Route path="/JavaScript/Basics/Functions" element={<Notion nav={true} endpoint="1bbc4deabc384953a2abdba270b5a5ad" />} />
 
         {/*Routes for JavaScript/Basics/Arrays */}
-        <Route path="/JavaScript/Basics/Arrays/" element={<Notion nav={true} endpoint="5fbeabab67644cbcbbbc17e3d7b333c2" />} />
-        <Route path="/JavaScript/Basics/Arrays/" element={<Notion nav={true} endpoint="5fbeabab67644cbcbbbc17e3d7b333c2" />} />
+        <Route path="/JavaScript/Basics/Arrays/Functions" element={<Notion nav={true} endpoint="a500e04135c54d92a90977454b36b42a" />} />
+        <Route path="/JavaScript/Basics/Arrays/Destructuring-and-Concatenation" element={<Notion nav={true} endpoint="fd7ea339240c456e957f340c4c7d9e07" />} />
 
         {/*Routes for JavaScript/Basics/Objects */}
         <Route path="/JavaScript/Basics/Objects/reading-dynamic-Properties" element={<Notion nav={true} endpoint="5fbeabab67644cbcbbbc17e3d7b333c2" />} />
@@ -68,6 +71,29 @@ function App() {
         <Route path="/JavaScript/Basics/Classes/Inheritance-and-extend" element={<Notion nav={true} endpoint="f1c41e0943cc49ec90b380ece5396201" />} />
         <Route path="/JavaScript/Basics/Classes/Class-vs-Function" element={<Notion nav={true} endpoint="df76ffd191004787933486556ebf92d5" />} />
         <Route path="/JavaScript/Basics/Classes/Public-Private" element={<Notion nav={true} endpoint="77c59561e9774152968b6935f2b71eeb" />} />        
+
+        {/*Routes for JavaScript/Advanced */}
+        <Route path="/JavaScript/Advanced/Nullish-Coalescing" element={<Notion nav={true} endpoint="87203a8f6bb644078aca06572e7dca73" />} />
+        <Route path="/JavaScript/Advanced/Try-Catch" element={<Notion nav={true} endpoint="b94692f7b9ce4d238dec05adc55fc924" />} />
+        <Route path="/JavaScript/Advanced/Asynchronous-Callbacks" element={<Notion nav={true} endpoint="454159db20454931a96d1452e6ad108d" />} />
+        <Route path="/JavaScript/Advanced/Fetch-and-JSON" element={<Notion nav={true} endpoint="628ffebbf1424c00a0a363668eeab2cc" />} />
+        <Route path="/JavaScript/Advanced/ES-Modules" element={<Notion nav={true} endpoint="ba01fee97e034849a06093e9224dc6c7" />} />
+        <Route path="/JavaScript/Advanced/forLoop" element={<Notion nav={true} endpoint="84b1abf56bb743d486f514c421bcd7f3" />} />
+        <Route path="/JavaScript/Advanced/IFFEE" element={<Notion nav={true} endpoint="0d2a1dc674b2495fb6a96725d2eb0115" />} />
+
+        {/*Routes for JavaScript/Tools */}
+        <Route path="/JavaScript/Tools/Module-Bundlers" element={<Notion nav={true} endpoint="8f2f66d208644a30b7b364dd7714bed8" />} />
+        <Route path="/JavaScript/Tools/EcmaScript" element={<Notion nav={true} endpoint="72d10fc228994a8d8c620f0dd92bb1a1" />} />
+        <Route path="/JavaScript/Tools/Package-Managers" element={<Notion nav={true} endpoint="439db866820549229263db3b682a6d71" />} />
+        <Route path="/JavaScript/Tools/ESLint" element={<Notion nav={true} endpoint="4c80d90a04fb4f5c904e06dc592421f1" />} />
+
+        {/*Routes for JavaScript/How-JS-works */}
+        <Route path="/JavaScript/How-JS-works/Closure" element={<Notion nav={true} endpoint="523d22d2397b4575a81e4634c23d86f7" />} />
+        <Route path="/JavaScript/How-JS-works/Event-Loop" element={<Notion nav={true} endpoint="b2a9388cf8944adbaebce559d3ee7e07" />} />
+        <Route path="/JavaScript/How-JS-works/ASI" element={<Notion nav={true} endpoint="3b05d62a33ba4834be92c0de60066e17" />} />
+
+
+        <Route path="/React/" element={<React_Dir />} />
 
 
 
