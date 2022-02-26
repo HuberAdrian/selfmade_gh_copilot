@@ -4,12 +4,12 @@ import Direction from '../components/Direction';
 import Navbar from '../components/Navbar';
 import Divider from '../components/Divider';
 
-function React_Dir() {
+function React_Dir() { 
   return <div>
       <Navbar />
-    <Link to="/">
+      <a href="https://reactjs.org/docs/getting-started.html" rel="noopener noreferrer" target="_blank">
       <Direction caption="Documentation" description="" />
-    </Link>
+    </a>
     <Link to="/React/Introduction-and-Install">
       <Direction caption="Introduction & Install" description="" />
     </Link>

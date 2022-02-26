@@ -93,7 +93,22 @@ function App() {
         <Route path="/JavaScript/How-JS-works/ASI" element={<Notion nav={true} endpoint="3b05d62a33ba4834be92c0de60066e17" />} />
 
 
-        <Route path="/React/" element={<React_Dir />} />
+
+        {/*Routes for /React */}
+        <Route path="/React/Introduction-and-Install" element={<Notion nav={true} endpoint="953ea79f4b2d49a897d49777cbd4808f" />} />
+        <Route path="/React/JSX" element={} />
+        <Route path="/React/Components" element={} />
+        <Route path="/React/Hooks" element={<Notion nav={true} endpoint="001e5bd586fb4a71a8303498527171be" />} />
+        <Route path="/React/User-Input" element={} />
+        <Route path="/React/Fetch" element={} />
+        <Route path="/React/refs" element={} />
+        <Route path="/React/Tools-Libraries" element={} />
+        <Route path="/React/Local-Storage" element={} />
+        <Route path="/React/Lazy" element={} />
+        <Route path="/React/Class-Components" element={} />
+        <Route path="/React/Styles" element={} />
+        <Route path="/React/Synthetic-Events" element={} />
+
 
 
 
