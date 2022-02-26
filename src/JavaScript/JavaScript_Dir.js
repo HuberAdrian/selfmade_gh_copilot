@@ -13,7 +13,7 @@ function JavaScript_Dir() {
       <Direction caption="Basics (personal notes)" description="Operatons on strings, Arrays, Objects, Classes, Functions" />
     </Link>
     <Link to="/JavaScript/Advanced">
-      <Direction caption="Avanced" description="" />
+      <Direction caption="Avanced (personal notes)" description="" />
     </Link>
     <Link to="/JavaScript/How-JS-works">
       <Direction caption="How JS works under the hood" description="" />
