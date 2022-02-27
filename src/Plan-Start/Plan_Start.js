@@ -16,7 +16,7 @@ function Plan_Start() {
       <Direction caption="Ideas/ Inspiration" description="" />
     </Link>
     <Link to="/">
-      <Direction caption="Components a Webiste should have" description="" />
+      <Direction caption="Components Websites should have" description="" />
     </Link>
   </div>;
 }

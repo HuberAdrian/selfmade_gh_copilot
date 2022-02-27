@@ -17,6 +17,12 @@ import JS_Basics_Classes from './JavaScript/JS_Basics_Classes';
 import JS_Basics_Objects from './JavaScript/JS_Basics_Objects';
 import JS_Basics_Arrays from './JavaScript/JS_Basics_Arrays';
 import React_Dir from './React/React_Dir';
+import JSX_React from './React/JSX_React';
+import Components_React from './React/Components_React';
+import Fetch_React from './React/Fetch_React';
+import Tools_React from './React/Tools_React';
+import Hooks_React from './React/Hooks_React';
+import Input_React from './React/Input_React';
 
 function App() {
   
@@ -92,25 +98,37 @@ function App() {
         <Route path="/JavaScript/How-JS-works/Event-Loop" element={<Notion nav={true} endpoint="b2a9388cf8944adbaebce559d3ee7e07" />} />
         <Route path="/JavaScript/How-JS-works/ASI" element={<Notion nav={true} endpoint="3b05d62a33ba4834be92c0de60066e17" />} />
 
-
+      
 
         {/*Routes for /React */}
         <Route path="/React/Introduction-and-Install" element={<Notion nav={true} endpoint="953ea79f4b2d49a897d49777cbd4808f" />} />
-        <Route path="/React/JSX" element={} />
-        <Route path="/React/Components" element={} />
-        <Route path="/React/Hooks" element={<Notion nav={true} endpoint="001e5bd586fb4a71a8303498527171be" />} />
-        <Route path="/React/User-Input" element={} />
-        <Route path="/React/Fetch" element={} />
-        <Route path="/React/refs" element={} />
-        <Route path="/React/Tools-Libraries" element={} />
-        <Route path="/React/Local-Storage" element={} />
-        <Route path="/React/Lazy" element={} />
-        <Route path="/React/Class-Components" element={} />
-        <Route path="/React/Styles" element={} />
-        <Route path="/React/Synthetic-Events" element={} />
-
-
-
+        <Route path="/React/JSX" element={<JSX_React />} />
+        <Route path="/React/Components" element={<Components_React />} />
+        <Route path="/React/Hooks" element={<Hooks_React />} />
+        <Route path="/React/User-Input" element={<Input_React />} />
+        <Route path="/React/Fetch" element={<Fetch_React />} />
+        <Route path="/React/refs" element={<Notion nav={true} endpoint="cd7f2f70af1d429ba80c0585b6c91ee1" />} />
+        <Route path="/React/Tools-Libraries" element={<Tools_React />} />
+        <Route path="/React/Local-Storage" element={<Notion nav={true} endpoint="d17d6a518ee847ca889e7adcaf00e96c" />} />
+        <Route path="/React/Lazy" element={<Notion nav={true} endpoint="61fd367d5c5b410aab0f4aee68abeb25" />} />
+        <Route path="/React/Class-Components" element={<Notion nav={true} endpoint="3d0b3ad9b16f42c9b2427d266ebdfd92" />} />
+        <Route path="/React/Styles" element={<Notion nav={true} endpoint="5c031ee18e494443ae1d83c7b314f286" />} />
+        <Route path="/React/Synthetic-Events" element={<Notion nav={true} endpoint="e187ccb3d5e9418c93f17037a8761121" />} />
+        
+        {/*Routes for /React/JSX */}
+        <Route path="/React/JSX/Overall" element={<Notion nav={true} endpoint="464880e62ede413282843d71d0b51001" />} />
+        <Route path="/React/JSX/Expressions" element={<Notion nav={true} endpoint="03d0e4fcfec34f34a57fb05883038e83" />} />
+        <Route path="/React/JSX/Children" element={<Notion nav={true} endpoint="3367354c57d8408f84872407f950b5f3" />} />
+        <Route path="/React/JSX/Fragments" element={<Notion nav={true} endpoint="1b95ff5f8fa94a7ea7bf48bca4731c2a" />} />
+        <Route path="/React/JSX/Gotchas" element={<Notion nav={true} endpoint="32d46270b1a04e55be222878e0265570" />} />
+        <Route path="/React/JSX/Notation" element={<Notion nav={true} endpoint="cd3074a1536c4f3588325686b129da08" />} />
+        <Route path="/React/JSX/inner-HTML" element={<Notion nav={true} endpoint="3578d22c07df41bc8758281123b414f0" />} />
+        <Route path="/React/JSX/Arrays" element={<Notion nav={true} endpoint="263b8e652e5143dd930eea4601f2b412" />} />
+       
+        {/*Routes for /React/Components/ */}
+        <Route path="/React/Components/Overall" element={<Notion nav={true} endpoint="fa3a2572fb4c44f8aed4e52c7cfbb6ac" />} />
+        <Route path="/React/Components/Props" element={<Notion nav={true} endpoint="3f6bc0e1bf8d48fa8c496ee5ba0d7800" />} />
+        <Route path="/React/Components/Conditional-Rendering" element={<Notion nav={true} endpoint="52f45746756f4916b6e3d68bb677b618" />} />
 
         {/*Routes for Git_GitHub*/}
         <Route path="/Git-Github/How-Git-Works" element={<Notion nav={true} endpoint="001e5bd586fb4a71a8303498527171be" />} />

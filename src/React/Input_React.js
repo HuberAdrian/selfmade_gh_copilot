@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Direction from '../components/Direction';
 import Navbar from '../components/Navbar';
 
-function Fetch_React() {
+function Input_React() {
   return (
     <div>
         <Link to="/React/JSX">
@@ -16,4 +16,4 @@ function Fetch_React() {
   )
 }
 
-export default Fetch_React
+export default Input_React
