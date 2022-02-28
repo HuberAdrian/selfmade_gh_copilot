@@ -6,11 +6,21 @@ import Navbar from '../components/Navbar';
 function Hooks_React() {
   return (
     <div>
-        <Link to="/React/JSX">
-            <Direction caption="JSX" description="" />
+        <Navbar />
+        <Link to="/React/Hooks/useState">
+            <Direction caption="useState" description="" />
         </Link>
-        <Link to="/React/JSX">
-            <Direction caption="JSX" description="" />
+        <Link to="/React/Hooks/useEffect">
+            <Direction caption="useEffect" description="" />
+        </Link>
+        <Link to="/React/Hooks/useLayoutEffect">
+            <Direction caption="useLayoutEffect" description="" />
+        </Link>
+        <Link to="/React/Hooks/Custom">
+            <Direction caption="Custom Hooks" description="" />
+        </Link>
+        <Link to="/React/Hooks/State-Effect">
+            <Direction caption="State inside effect" description="" />
         </Link>
     </div>
   )

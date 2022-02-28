@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 function Input_React() {
   return (
     <div>
+      <Navbar />
         <Link to="/React/JSX">
             <Direction caption="JSX" description="" />
         </Link>
