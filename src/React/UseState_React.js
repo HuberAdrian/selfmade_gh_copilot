@@ -16,7 +16,7 @@ function UseState_React() {
         <Link to="/React/Hooks/useState/Arrays">
             <Direction caption="States with complex types" description="with arrays, objects, array of objects" />
         </Link>
-        <Link to="/React/Hooks/Functional">
+        <Link to="/React/Hooks/useState/Functional">
             <Direction caption="Functional State updates" description="if component doesn't re-render" />
         </Link>
     </div>

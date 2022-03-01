@@ -16,9 +16,6 @@ function UseEffect_React() {
         <Link to="/React/Hooks/useEffect/Dependencies">
             <Direction caption="Effect dependencies" description="run useEffect on certain re-render functions" />
         </Link>
-        <Link to="/React/Hooks/useEffect/Performance">
-            <Direction caption="Effect Performance" description="" />
-        </Link>
     </div>
   )
 }
