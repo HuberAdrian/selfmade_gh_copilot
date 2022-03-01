@@ -7,11 +7,11 @@ function Input_React() {
   return (
     <div>
       <Navbar />
-        <Link to="/React/JSX">
-            <Direction caption="JSX" description="" />
+        <Link to="/React/User-Input/Forms">
+            <Direction caption="Forms Example" description="" />
         </Link>
-        <Link to="/React/JSX">
-            <Direction caption="JSX" description="" />
+        <Link to="/React/User-Input/Accessible">
+            <Direction caption="Accessible Forms" description="web apps also designed for people w/ disabilities" />
         </Link>
     </div>
   )

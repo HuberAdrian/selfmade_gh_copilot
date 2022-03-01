@@ -130,8 +130,19 @@ function App() {
         <Route path="/React/Components/Props" element={<Notion nav={true} endpoint="3f6bc0e1bf8d48fa8c496ee5ba0d7800" />} />
         <Route path="/React/Components/Conditional-Rendering" element={<Notion nav={true} endpoint="52f45746756f4916b6e3d68bb677b618" />} />
 
+        {/*Routes for /React/Hooks */}
+        <Route path="/React/Hooks/" element={<Notion nav={true} endpoint="464880e62ede413282843d71d0b51001" />} />
+        <Route path="/React/Hooks/" element={<Notion nav={true} endpoint="464880e62ede413282843d71d0b51001" />} />
+        <Route path="/React/Hooks/" element={<Notion nav={true} endpoint="464880e62ede413282843d71d0b51001" />} />
 
+        {/*Routes for /React/User-Input */}
+        <Route path="/React/JSX/Overall" element={<Notion nav={true} endpoint="464880e62ede413282843d71d0b51001" />} />
 
+        {/*Routes for /React/Fetch */}
+        <Route path="/React/JSX/Overall" element={<Notion nav={true} endpoint="464880e62ede413282843d71d0b51001" />} />
+
+        {/*Routes for /React/Tools-Libraries */}
+        <Route path="/React/JSX/Overall" element={<Notion nav={true} endpoint="464880e62ede413282843d71d0b51001" />} />
 
 
         {/*Routes for Git_GitHub*/}
