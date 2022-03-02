@@ -158,13 +158,24 @@ function App() {
         <Route path="/React/Tools-Libraries/VS-Extensions" element={<Notion nav={true} endpoint="ccbbf7f9b1864fb88ef54dfc8fec8039" />} />
         <Route path="/React/Tools-Libraries/React-Router-Dom" element={<Tools_React_Router />} />
         <Route path="/React/Tools-Libraries/Stripe-Checkout" element={<Tools_Stripe />} />
-        <Route path="/React/Tools-Libraries/Preact" element={<Tools_Preact} />
+        <Route path="/React/Tools-Libraries/Preact" element={<Tools_Preact />} />
         <Route path="/React/Tools-Libraries/Redux" element={<Tools_Redux />} />
         <Route path="/React/Tools-Libraries/Netifly" element={<Notion nav={true} endpoint="9af6a6ca5e98493da2a1d757daa09cfa" />} />
         <Route path="/React/Tools-Libraries/Dev-Tools" element={<Notion nav={true} endpoint="527c2aa90484479eba647d5b1f6bd555" />} />
         <Route path="/React/Tools-Libraries/UI-Kits" element={<Notion nav={true} endpoint="6713a4bb8ac847e7bd5e6626cac1bdab" />} />
+        <Route path="/React/Tools-Libraries/Preact/Overview" element={<Notion nav={true} endpoint="2826ff8097294bf697a9c43498730b74" />} />
+        <Route path="/React/Tools-Libraries/Preact/App-from-Scratch" element={<Notion nav={true} endpoint="1815d7c5479e40ab987506194f3d3bb9" />} />
+        <Route path="/React/Tools-Libraries/Preact/Move-to" element={<Notion nav={true} endpoint="b65786b360a94907b3f20a0a5dfb285b" />} />
+        <Route path="/React/Tools-Libraries/Stripe-Checkout/Notes" element={<Notion nav={true} endpoint="c1f5d28c2d7f4e5d9b38cfe7ddf5454f" />} />
+        <Route path="/React/Tools-Libraries/Stripe-Checkout/Create" element={<Notion nav={true} endpoint="72c67dd4f43c4e37af007635ad20de82" />} />
+        <Route path="/React/Tools-Libraries/Stripe-Checkout/Integrate" element={<Notion nav={true} endpoint="928a717e978540ee9296cb7672c510b2" />} />
+        <Route path="/React/Tools-Libraries/Redux/Intro" element={<Notion nav={true} endpoint="2943b83aec20440a918ba51141e40ad7" />} />
+        <Route path="/React/Tools-Libraries/Redux/Setup" element={<Notion nav={true} endpoint="0fdaed3baf824d5a9bd6e6f6042e496a" />} />
+        <Route path="/React/Tools-Libraries/Redux/Toolkit" element={<Notion nav={true} endpoint="6b394167cf6048dba2fd7c153d29c25a" />} />
+        
 
 
+        
         {/*Routes for Git_GitHub*/}
         <Route path="/Git-Github/How-Git-Works" element={<Notion nav={true} endpoint="001e5bd586fb4a71a8303498527171be" />} />
         <Route path="/Git-Github/Configuration-and-Setup" element={<Notion nav={true} endpoint="8c76bbd5bb8f4662bbe038d93fa39802" />} />
