@@ -27,14 +27,14 @@ function Home() {
     <Link to="/JavaScript">
       <Direction caption="JavaScript" description="Cheatsheets, Docs, best Practices..." />
     </Link>
-    <Link to="/Media">
-      <Direction caption="Media" description="Pictures, Videos, Fonts, Icons, Chart libraries ..." />
+    <Link to="/React">
+      <Direction caption="React" description="Cheatsheets, Templates, Docs..." />
     </Link> 
     <Link to="/Git-Github">
       <Direction caption="Git / GitHub"/>
     </Link>
-    <Link to="/React">
-      <Direction caption="React" description="Cheatsheets, Templates, Docs..." />
+    <Link to="/Media">
+      <Direction caption="Media" description="Pictures, Videos, Fonts, Icons, Chart libraries ..." />
     </Link> 
     <Link to="/Testing">
       <Direction caption="Testing" description="Jest, etc" />
