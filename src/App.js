@@ -30,6 +30,8 @@ import Tools_React_Router from './React/Tools_React_Router';
 import Tools_Stripe from './React/Tools_Stripe';
 import Tools_Preact from './React/Tools_Preact';
 import Tools_Redux from './React/Tools_Redux';
+import Router_V4 from './React/Router_V4';
+import Router_V6 from './React/Router_V6';
 
 function App() {
   
@@ -172,6 +174,14 @@ function App() {
         <Route path="/React/Tools-Libraries/Redux/Intro" element={<Notion nav={true} endpoint="2943b83aec20440a918ba51141e40ad7" />} />
         <Route path="/React/Tools-Libraries/Redux/Setup" element={<Notion nav={true} endpoint="0fdaed3baf824d5a9bd6e6f6042e496a" />} />
         <Route path="/React/Tools-Libraries/Redux/Toolkit" element={<Notion nav={true} endpoint="6b394167cf6048dba2fd7c153d29c25a" />} />
+        <Route path="/React/Tools-Libraries/React-Router-Dom/V4" element={<Router_V4 />} />
+        <Route path="/React/Tools-Libraries/React-Router-Dom/V6" element={<Router_V6 />} />
+        <Route path="/React/Tools-Libraries/React-Router-Dom/V4/Intro" element={<Notion nav={true} endpoint="b0769dcb756a430fa4345f266af3daaa" />} />
+        <Route path="/React/Tools-Libraries/React-Router-Dom/V4/Navigation" element={<Notion nav={true} endpoint="54dfebe84db649898b82e02af5faa3cc" />} />
+        <Route path="/React/Tools-Libraries/React-Router-Dom/V4/Parameters" element={<Notion nav={true} endpoint="7fea6b0a893d498f9551a96907f24683" />} />
+        <Route path="/React/Tools-Libraries/React-Router-Dom/V4/Nested" element={<Notion nav={true} endpoint="58c87a5ad9054aa5bc974687ecbb5b9f" />} />
+        <Route path="/React/Tools-Libraries/React-Router-Dom/V4/Advanced" element={<Notion nav={true} endpoint="184ce3fccf994f6196f808ea1b47bd6d" />} />
+        <Route path="/React/Tools-Libraries/React-Router-Dom/V6/Redirect" element={<Notion nav={true} endpoint="89418faa43054415a89631675b2d147e" />} />
         
 
 
