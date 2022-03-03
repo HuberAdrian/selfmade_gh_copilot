@@ -47,9 +47,18 @@ function App() {
         <Route path="/Media" element={<Notion nav={true} endpoint="110e0248e56b419395615c0f66fafab4" />} />
         <Route path="/Git-Github" element={<Git_Github />} />
         <Route path="/React" element={<React_Dir />} />
+
+
+
+        {/* Routes for less used directions*/}
+        <Route path="/SEO" element={<Notion nav={true} endpoint="43f7d54a678543dfa6251db3121b281e" />} />
+        <Route path="/Interview" element={<Notion nav={true} endpoint="d5aa216897624dbca4dc54f4d84e0ee7" />} />
+
+        
+
         
         {/*Routes for Plan-Start*/}
-        <Route path="/Plan-Start/Checklist" element={<Notion nav={true} endpoint="3e10fb8512f3460b8aa890edbecb4ff0" />} />
+        <Route path="/Plan-Start/Checklist" element={<Notion nav={true} endpoint="55ccc198f6a54b0e995c2475ca413ce7" />} />
         <Route path="/Plan-Start/CRA" element={<Notion nav={true} endpoint="3e10fb8512f3460b8aa890edbecb4ff0" />} />
         <Route path="/Plan-Start/Ideas" element={<Notion nav={true} endpoint="6945a651ef09419e94dc09794a6a7646" />} />
         <Route path="/Plan-Start/Components" element={<Notion nav={true} endpoint="3e10fb8512f3460b8aa890edbecb4ff0" />} />
@@ -60,12 +69,6 @@ function App() {
         <Route path="/HTML-CSS/Generators" element={<Notion nav={true} endpoint="0c2ea424efcb4e53997c5d6606d0fa4a" />} />
         <Route path="/HTML-CSS/Generators/best-practices" element={<Notion nav={true} endpoint="0c2ea424efcb4e53997c5d6606d0fa4a" />} />
 
-
-
-        {/* Routes for less used directions*/}
-        <Route path="/SEO" element={<Home />} />
-        <Route path="/Interview" element={<Home />} />
-        <Route path="/Games" element={<Home />} />
 
 
 

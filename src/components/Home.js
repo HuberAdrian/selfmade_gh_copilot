@@ -36,10 +36,10 @@ function Home() {
     <Link to="/Media">
       <Direction caption="Media" description="Pictures, Videos, Fonts, Icons, Chart libraries ..." />
     </Link> 
-    <Link to="/Testing">
+    <a href="https://elderly-forsythia-b52.notion.site/Intro-to-testing-28e8b1b457b742cfbb4e9e289e70384e" rel="noopener noreferrer" target="_blank">
       <Direction caption="Testing" description="Jest, etc" />
-    </Link>     
-        
+    </a>     
+    
     <Divider />
 
     {/* Links with Directions for less used directions*/}
@@ -48,9 +48,6 @@ function Home() {
     </Link>
     <Link to="/Interview">
       <Direction caption="Interview Preparation" description="HTML, CSS, JS, React, Data Structures, Algorithms,..." />
-    </Link>
-    <Link to="/Games">
-      <Direction caption="Playing Coding Games" />
     </Link>
     <a href="https://serverless.css-tricks.com" rel="noopener noreferrer" target="_blank">
       <Direction caption="Serverless" description="" />
