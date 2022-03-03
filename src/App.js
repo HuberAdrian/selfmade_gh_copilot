@@ -44,14 +44,29 @@ function App() {
         <Route path="/Plan-Start" element={<Plan_Start />} />
         <Route path="/HTML-CSS" element={<Html_css />} />
         <Route path="/JavaScript" element={<JavaScript_Dir />} />
-        <Route path="/Media" element={<Home />} />
+        <Route path="/Media" element={<Notion nav={true} endpoint="110e0248e56b419395615c0f66fafab4" />} />
         <Route path="/Git-Github" element={<Git_Github />} />
         <Route path="/React" element={<React_Dir />} />
         
+        {/*Routes for Plan-Start*/}
+        <Route path="/Plan-Start/Checklist" element={<Notion nav={true} endpoint="3e10fb8512f3460b8aa890edbecb4ff0" />} />
+        <Route path="/Plan-Start/CRA" element={<Notion nav={true} endpoint="3e10fb8512f3460b8aa890edbecb4ff0" />} />
+        <Route path="/Plan-Start/Ideas" element={<Notion nav={true} endpoint="6945a651ef09419e94dc09794a6a7646" />} />
+        <Route path="/Plan-Start/Components" element={<Notion nav={true} endpoint="3e10fb8512f3460b8aa890edbecb4ff0" />} />
+
+
+
+        {/*Routes for HTML-CSS*/}
+        <Route path="/HTML-CSS/Generators" element={<Notion nav={true} endpoint="0c2ea424efcb4e53997c5d6606d0fa4a" />} />
+        <Route path="/HTML-CSS/Generators/best-practices" element={<Notion nav={true} endpoint="0c2ea424efcb4e53997c5d6606d0fa4a" />} />
+
+
+
         {/* Routes for less used directions*/}
         <Route path="/SEO" element={<Home />} />
         <Route path="/Interview" element={<Home />} />
         <Route path="/Games" element={<Home />} />
+
 
 
 
@@ -95,6 +110,7 @@ function App() {
         <Route path="/JavaScript/Tools/EcmaScript" element={<Notion nav={true} endpoint="72d10fc228994a8d8c620f0dd92bb1a1" />} />
         <Route path="/JavaScript/Tools/Package-Managers" element={<Notion nav={true} endpoint="439db866820549229263db3b682a6d71" />} />
         <Route path="/JavaScript/Tools/ESLint" element={<Notion nav={true} endpoint="4c80d90a04fb4f5c904e06dc592421f1" />} />
+        <Route path="/JavaScript/Tools/APIs" element={<Notion nav={true} endpoint="98ee49f3108c47729c6e90c0677d924b" />} />
         {/*Routes for JavaScript/How-JS-works */}
         <Route path="/JavaScript/How-JS-works/Closure" element={<Notion nav={true} endpoint="523d22d2397b4575a81e4634c23d86f7" />} />
         <Route path="/JavaScript/How-JS-works/Event-Loop" element={<Notion nav={true} endpoint="b2a9388cf8944adbaebce559d3ee7e07" />} />

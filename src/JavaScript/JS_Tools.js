@@ -19,6 +19,9 @@ function JS_Tools() {
     <Link to="/JavaScript/Tools/ESLint">
       <Direction caption="ESLint" description="" />
     </Link>
+    <Link to="/JavaScript/Tools/APIs">
+      <Direction caption="APIs" description="APIs, Ressources, ..." />
+    </Link>
     </div>
   )
 }

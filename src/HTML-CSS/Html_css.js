@@ -7,19 +7,19 @@ function Html_css() {
   return (
     <div>
         <Navbar />
-    <Link to="/">
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" rel="noopener noreferrer" target="_blank">
       <Direction caption="Documentation HTML" description="" />
-    </Link>
-    <Link to="/">
+    </a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" rel="noopener noreferrer" target="_blank">
       <Direction caption="Documentation CSS" description="" />
-    </Link>
-    <Link to="/">
+    </a>
+    <Link to="/Plan-Start/Ideas">
       <Direction caption="Templates" description="" />
     </Link>
-    <Link to="/">
+    <Link to="/HTML-CSS/Generators">
       <Direction caption="Generators" description="Buttons, Navbars" />
     </Link>
-    <Link to="/">
+    <Link to="/HTML-CSS/Generators/best-practices">
       <Direction caption="Best practices" description="" />
     </Link>
     </div>
