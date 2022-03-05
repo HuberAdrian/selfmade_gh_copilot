@@ -1,4 +1,17 @@
 .notion {
 	color: #fff;
 	text-align: left;
+
+}
+.notion-bookmark-title {
+	color: #fff;
+}
+
+.notion-bookmark-description {
+	color: #fff;
+}
+
+.notion-page-text {
+	color: #fff;
+	text-decoration: underline;
 }
