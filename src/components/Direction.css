@@ -1,5 +1,3 @@
-
-
 .Direction {
     margin: auto;
     height: 46px;
@@ -27,6 +25,7 @@
 .Direction .withoutDesc {
     margin-top: 9px;
     margin-bottom: 9px;
+
 }
 
 
@@ -44,4 +43,8 @@
 
 a {
     border-radius: 10px;
+}
+
+.homeForFlex {
+    margin-top: 10px;
 }

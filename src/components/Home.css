@@ -6,3 +6,12 @@
     gap: 10px;
     overflow: hidden;
 }
+
+h1 {
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+h4 {
+    margin-top: 0px;
+}
