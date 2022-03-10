@@ -2,19 +2,21 @@ import React from 'react';
 import Direction from './Direction';
 import Divider from './Divider';
 import SearchBar from './SearchBar';
-import "./Home.css"
+import "./SearchBar.css";
+import "./Home.css";
 import {Routes, Route, Link} from "react-router-dom";
 import Git_Github from '../Git_Github/Git_Github';
+import SearchData from "./Searchbar_Data.json"
 
 function Home() {
     console.log("test Home");
     return ( 
       
-    <div>   
+    <div className='home'>   
     <h1>Selfmade Github Copilot*</h1> 
     <h4>*for Web development</h4>
   
-    <SearchBar placeholder="Search for keywords" data="test" />
+    <SearchBar placeholder="Search for keywords" data={SearchData} />
 
 
     {/* Links with Directions */}

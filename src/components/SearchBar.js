@@ -6,6 +6,7 @@ import CloseIcon from "@material-ui/icons/Close";
 function SearchBar({ placeholder, data }) {
   const [filteredData, setFilteredData] = useState([]);
   const [wordEntered, setWordEntered] = useState("");
+  const key=1;
 
   const handleFilter = (event) => {
 
@@ -48,8 +49,9 @@ function SearchBar({ placeholder, data }) {
       {filteredData.length != 0 && (
         <div className="dataResult">
           {filteredData.slice(0, 15).map((value, key) => {
+            key = key +1;
             return (
-              <a className="dataItem" href={value.link} target="_blank">
+              <a className="dataItem" href={value.link} key={key} target="_blank">
                 <p>{value.title} </p>
               </a>
             );
