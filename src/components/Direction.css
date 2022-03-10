@@ -13,7 +13,6 @@
 }
 
 .Direction h2 {
-    
     color: black;
     background-color: #cecdc5;
     margin-top: auto;
@@ -37,6 +36,12 @@
     border-radius: 10px;
   }
   
-.Direction:hover > h2 { background-color: #fff; }
+.Direction:hover > h2 {
+     background-color: #fff; 
+     border-radius: 10px;
+    }
 .Direction:hover > p { background-color: #fff; }
 
+a {
+    border-radius: 10px;
+}
