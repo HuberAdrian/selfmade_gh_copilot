@@ -61,7 +61,6 @@ function App() {
         <Route path="/Plan-Start/Checklist" element={<Notion nav={true} endpoint="55ccc198f6a54b0e995c2475ca413ce7" />} />
         <Route path="/Plan-Start/CRA" element={<Notion nav={true} endpoint="3e10fb8512f3460b8aa890edbecb4ff0" />} />
         <Route path="/Plan-Start/Ideas" element={<Notion nav={true} endpoint="6945a651ef09419e94dc09794a6a7646" />} />
-        <Route path="/Plan-Start/Components" element={<Notion nav={true} endpoint="3e10fb8512f3460b8aa890edbecb4ff0" />} />
 
 
 
