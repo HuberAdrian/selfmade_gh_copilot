@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "./SearchBar.css";
 import SearchIcon from "@material-ui/icons/Search";
 import CloseIcon from "@material-ui/icons/Close";
@@ -6,6 +6,7 @@ import CloseIcon from "@material-ui/icons/Close";
 function SearchBar({ placeholder, data }) {
   const [filteredData, setFilteredData] = useState([]);
   const [wordEntered, setWordEntered] = useState("");
+  const resultRef = useRef();
   let key=1;
 
   const handleFilter = (event) => {
@@ -29,6 +30,12 @@ function SearchBar({ placeholder, data }) {
     setWordEntered("");
   };
 
+  const handleKeyDown = (event) => {
+    if (event.key === "ArrowDown") {
+
+    }
+  }
+
   return (
     <div className="search">
       <div className="searchInputs">
@@ -37,6 +44,7 @@ function SearchBar({ placeholder, data }) {
           placeholder={placeholder}
           value={wordEntered}
           onChange={handleFilter}
+          onKeyDown={handleKeyDown}
         />
         <div className="searchIcon">
           {filteredData.length === 0 ? (
@@ -48,14 +56,16 @@ function SearchBar({ placeholder, data }) {
       </div>
       {filteredData.length != 0 && (
         <div className="dataResult">
+          <ul>
           {filteredData.slice(0, 15).map((value) => {
             key = key +1;
             return (
               <a className="dataItem" href={value.link} key={key} target="_blank">
-                <p>{value.link} </p>
+                <li>{value.link} </li>
               </a>
             );
           })}
+          </ul>
         </div>
       )}
     </div>

@@ -54,15 +54,24 @@ input:focus {
   align-items: center;
   color: black;
 }
+ul {
+  margin: 0px;
+  padding: 0px;
+}
 
-.dataItem p {
+.dataItem li {
   margin-left: 10px;
+  list-style-position: inside;
+  list-style-type: none;
 }
 a {
   text-decoration: none;
 }
 
 a:hover {
+  background-color: lightgrey;
+}
+a:focus {
   background-color: lightgrey;
 }
 
