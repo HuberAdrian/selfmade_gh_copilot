@@ -9,9 +9,8 @@ function SearchBar({ placeholder, data }) {
   const [focused, setFocused] = useState(0);
   const fieldRef = useRef();
   const itemsRef = useRef([]);
-    // you can access the elements with itemsRef.current[n]
 
-    useEffect(() => {
+  useEffect(() => {
        itemsRef.current = itemsRef.current.slice(0, filteredData.length);
     }, [filteredData]);
 
@@ -37,18 +36,17 @@ function SearchBar({ placeholder, data }) {
   };
 
   const handleKeyDown = (event) => {
-    console.log(event.key)
+
     if (event.key === "ArrowDown") {
       setFocused(focused +1)
-      itemsRef.current[focused].focus()
+      itemsRef.current[focused]?.focus()
     }
     if (event.key === "ArrowUp" && focused>-1) {
       setFocused(focused -1)
-      itemsRef.current[focused].focus()
+      itemsRef.current[focused]?.focus()
     }
     else if (event.key === "ArrowUp") {
-      setFocused(0)
-      fieldRef.current.focus()
+      fieldRef.current?.focus();
     }
   }
 
