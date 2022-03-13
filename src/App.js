@@ -128,6 +128,7 @@ function App() {
         <Route path="/React/User-Input" element={<Input_React />} />
         <Route path="/React/Fetch" element={<Fetch_React />} />
         <Route path="/React/refs" element={<Notion nav={true} endpoint="cd7f2f70af1d429ba80c0585b6c91ee1" />} />
+        <Route path="/React/Context" element={<Notion nav={true} endpoint="05400301a558474091a6db891671abea" />} />
         <Route path="/React/Tools-Libraries" element={<Tools_React />} />
         <Route path="/React/Local-Storage" element={<Notion nav={true} endpoint="d17d6a518ee847ca889e7adcaf00e96c" />} />
         <Route path="/React/Lazy" element={<Notion nav={true} endpoint="61fd367d5c5b410aab0f4aee68abeb25" />} />
