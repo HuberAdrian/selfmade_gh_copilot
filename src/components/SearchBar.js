@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./SearchBar.css";
 import SearchIcon from "@material-ui/icons/Search";
 import CloseIcon from "@material-ui/icons/Close";
@@ -6,7 +6,14 @@ import CloseIcon from "@material-ui/icons/Close";
 function SearchBar({ placeholder, data }) {
   const [filteredData, setFilteredData] = useState([]);
   const [wordEntered, setWordEntered] = useState("");
-  const resultRef = useRef();
+  const [focused, setFocused] = useState(0);
+  const fieldRef = useRef();
+  const itemsRef = useRef([]);
+    // you can access the elements with itemsRef.current[n]
+
+    useEffect(() => {
+       itemsRef.current = itemsRef.current.slice(0, filteredData.length);
+    }, [filteredData]);
 
   const handleFilter = (event) => {
 
@@ -30,8 +37,18 @@ function SearchBar({ placeholder, data }) {
   };
 
   const handleKeyDown = (event) => {
+    console.log(event.key)
     if (event.key === "ArrowDown") {
-
+      setFocused(focused +1)
+      itemsRef.current[focused].focus()
+    }
+    if (event.key === "ArrowUp" && focused>-1) {
+      setFocused(focused -1)
+      itemsRef.current[focused].focus()
+    }
+    else if (event.key === "ArrowUp") {
+      setFocused(0)
+      fieldRef.current.focus()
     }
   }
 
@@ -44,6 +61,7 @@ function SearchBar({ placeholder, data }) {
           value={wordEntered}
           onChange={handleFilter}
           onKeyDown={handleKeyDown}
+          ref = {fieldRef}
         />
         <div className="searchIcon">
           {filteredData.length === 0 ? (
@@ -59,7 +77,7 @@ function SearchBar({ placeholder, data }) {
           {filteredData.slice(0, 15).map((value, index) => {
           
             return (
-              <a className="dataItem" href={value.link} key={index} target="_blank">
+              <a onKeyDown={handleKeyDown} className="dataItem" ref={el => itemsRef.current[index] = el}  href={value.link} key={index}>
                 <li>{value.link} </li>
               </a>
             );
