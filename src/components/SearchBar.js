@@ -7,7 +7,6 @@ function SearchBar({ placeholder, data }) {
   const [filteredData, setFilteredData] = useState([]);
   const [wordEntered, setWordEntered] = useState("");
   const resultRef = useRef();
-  let key=1;
 
   const handleFilter = (event) => {
 
@@ -57,10 +56,10 @@ function SearchBar({ placeholder, data }) {
       {filteredData.length != 0 && (
         <div className="dataResult">
           <ul>
-          {filteredData.slice(0, 15).map((value) => {
-            key = key +1;
+          {filteredData.slice(0, 15).map((value, index) => {
+          
             return (
-              <a className="dataItem" href={value.link} key={key} target="_blank">
+              <a className="dataItem" href={value.link} key={index} target="_blank">
                 <li>{value.link} </li>
               </a>
             );
