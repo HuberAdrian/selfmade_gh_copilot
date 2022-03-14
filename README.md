@@ -23,7 +23,7 @@ Basic component structure (March 2022):<br>
 <img src="/src/Readme_Picturea/Page1.png" width="500" height="500" />
 
 Folder Structure (March 2022): <br>
-<img src="/src/Readme_Picturea/Screenshot%202022-03-14%20at%2016.23.14.png" width="500" height="500" />
+<img src="/src/Readme_Picturea/Screenshot%202022-03-14%20at%2016.23.14.png" width="300" height="500" />
 
 ### Libraries I used
 - React-Router-DOM
