@@ -3,6 +3,7 @@
 ### About this Project
 I must admit, the name "Selfmade Github Copilot" is a bit exaggerated. 
 It's more like an interactive program for web development ressources.
+Once I built a Portfolio Website, I will host it online. 
 
 ### Main benefits to other ressources
 - interactive, easy to find iformation
@@ -11,9 +12,20 @@ It's more like an interactive program for web development ressources.
 - covers complete web development process
 
 
-![App Screenshot](/)
+### Screenshots
+<img src="/src/Readme_Picturea/Screenshot%202022-03-14%20at%2023.16.48.png" width="400" height="400" />
+<img src="/src/Readme_Picturea/Screenshot%202022-03-14%20at%2023.17.19.png" width="400" height="400" />
+<img src="/src/Readme_Picturea/Screenshot%202022-03-14%20at%2023.18.00.png" width="400" height="400" />
 
 
+### How the App is strucured
+Basic component structure (March 2022):
+<img src="/src/Readme_Picturea/Page1.png" width="400" height="400" />
+
+Folder Structure (March 2022):
+<img src="/src/Readme_Picturea/Screenshot%202022-03-14%20at%2016.23.14.png" width="400" height="400" />
+
+### What I used in this project
 
 
 
