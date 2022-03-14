@@ -7,13 +7,16 @@ function SearchBar({ placeholder, data }) {
   const [filteredData, setFilteredData] = useState([]);
   const [wordEntered, setWordEntered] = useState("");
   const [focused, setFocused] = useState(0);
-  const fieldRef = useRef();
-  const itemsRef = useRef([]);
+  const fieldRef = useRef();   //used to focus on the input field
+  const itemsRef = useRef([]); // array of refs, 
 
+  //set the Array of refs new, every time the filteredData Array changes
   useEffect(() => {
-       itemsRef.current = itemsRef.current.slice(0, filteredData.length);
+       itemsRef.current = itemsRef.current.slice(0, filteredData.length); 
     }, [filteredData]);
 
+  
+  //filter through the JSON file
   const handleFilter = (event) => {
 
     const searchWord = event.target.value;
@@ -30,11 +33,15 @@ function SearchBar({ placeholder, data }) {
     
   };
 
+
+  //clear input if cross is pressed
   const clearInput = () => {
     setFilteredData([]);
     setWordEntered("");
   };
 
+
+  //set focus new if ArrowUp or ArrowDown is pressed
   const handleKeyDown = (event) => {
 
     if (event.key === "ArrowDown") {

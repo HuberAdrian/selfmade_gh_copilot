@@ -8,6 +8,7 @@ import "./Notion_Styles.css";
 import Navbar from './Navbar';
 
 function Notion(props) {
+    //destructuring props and default if not given
     const {nav=false, endpoint=""} = props;
 
     const [data, setData] = useState();
@@ -15,7 +16,7 @@ function Notion(props) {
 
 
 
-
+    //fetch Data from Notion (before component is rendered)
     useEffect(() => {
        fetch(`https://notion-api.splitbee.io/v1/page/${endpoint}`)
         .then(response => response.json())
