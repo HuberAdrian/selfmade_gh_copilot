@@ -13,20 +13,21 @@ Once I built a Portfolio Website, I will host it online.
 
 
 ### Screenshots
-<img src="/src/Readme_Picturea/Screenshot%202022-03-14%20at%2023.16.48.png" width="400" height="400" />
-<img src="/src/Readme_Picturea/Screenshot%202022-03-14%20at%2023.17.19.png" width="400" height="400" />
-<img src="/src/Readme_Picturea/Screenshot%202022-03-14%20at%2023.18.00.png" width="400" height="400" />
+<img src="/src/Readme_Picturea/Screenshot%202022-03-14%20at%2023.16.48.png" width="500" height="500" />
+<img src="/src/Readme_Picturea/Screenshot%202022-03-14%20at%2023.17.19.png" width="500" height="500" />
+<img src="/src/Readme_Picturea/Screenshot%202022-03-14%20at%2023.18.00.png" width="500" height="500" />
 
 
 ### How the App is strucured
-Basic component structure (March 2022):
-<img src="/src/Readme_Picturea/Page1.png" width="400" height="400" />
+Basic component structure (March 2022):<br>
+<img src="/src/Readme_Picturea/Page1.png" width="500" height="500" />
 
-Folder Structure (March 2022):
-<img src="/src/Readme_Picturea/Screenshot%202022-03-14%20at%2016.23.14.png" width="400" height="400" />
+Folder Structure (March 2022): <br>
+<img src="/src/Readme_Picturea/Screenshot%202022-03-14%20at%2016.23.14.png" width="500" height="500" />
 
-### What I used in this project
-
+### Libraries I used
+- React-Router-DOM
+- react-notion
 
 
 
