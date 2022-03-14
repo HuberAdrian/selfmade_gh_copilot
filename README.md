@@ -4,8 +4,16 @@
 I must admit, the name "Selfmade Github Copilot" is a bit exaggerated. 
 It's more like an interactive program for web development ressources.
 
-### Problems with other ressources
-There are a lot of repositories and webistes with usefull ressources, but they aren't good organized.
+### Main benefits to other ressources
+- interactive, easy to find iformation
+- searchbar integration
+- add/change content fast with Notion
+- covers complete web development process
+
+
+![App Screenshot](/)
+
+
 
 
 
