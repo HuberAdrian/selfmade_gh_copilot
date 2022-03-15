@@ -29,6 +29,11 @@ Folder Structure (March 2022): <br>
 - React-Router-DOM
 - react-notion
 
+### Open discussions about Refactoring
+- LazyLoad some Directions?
+- One large CSS file instead of multiple small
+- Export multiple (similar) Components from one .js file, e.g. subdirectories
+
 
 
 
