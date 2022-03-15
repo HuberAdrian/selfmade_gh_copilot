@@ -232,6 +232,10 @@
         "link": "/React/Components/Conditional-Rendering",
         "keywords": "Components conditional rendering"
     },
+    {
+        "link": "https://elderly-forsythia-b52.notion.site/Stateless-vs-Stateful-a23b74b5c076427fa2f50fb89a899e0b",
+        "keywords": "Stateless vs Stateful Passing functions props Lifting a state up"
+    },
 
     {
         "link": "/React/Hooks/useState",

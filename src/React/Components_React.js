@@ -16,6 +16,9 @@ function Components_React() {
         <Link to="/React/Components/Conditional-Rendering">
             <Direction caption="Conditional Rendering" description="" />
         </Link>
+        <a href="https://elderly-forsythia-b52.notion.site/Stateless-vs-Stateful-a23b74b5c076427fa2f50fb89a899e0b" target="_blank">
+      <Direction caption="Stateless vs. Stateful" description="Passing functions props, Lifting a state up, Refactoring" />
+    </a>
     </div>
   )
 }

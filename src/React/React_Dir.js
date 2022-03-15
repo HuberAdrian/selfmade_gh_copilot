@@ -7,7 +7,7 @@ import Divider from '../components/Divider';
 function React_Dir() { 
   return <div>
       <Navbar />
-      <a href="https://reactjs.org/docs/getting-started.html" rel="noopener noreferrer" target="_blank">
+    <a href="https://reactjs.org/docs/getting-started.html" rel="noopener noreferrer" target="_blank">
       <Direction caption="Documentation" description="" />
     </a>
     <Link to="/React/Introduction-and-Install">
