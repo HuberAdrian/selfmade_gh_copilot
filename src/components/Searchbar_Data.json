@@ -1,25 +1,25 @@
 [
     {
-        "link": "/Plan-Start/Checklist",
+        "link": "/Copilot/CopilotPlan-Start/Checklist",
         "keywords": "checklist"
     },
     {
-        "link": "/Plan-Start/CRA",
+        "link": "/Copilot/CopilotPlan-Start/CRA",
         "keywords": "cra, create react app"
     },
     {
-        "link": "/Plan-Start/Ideas",
+        "link": "/Copilot/CopilotPlan-Start/Ideas",
         "keywords": "Ideas Templates Inspiration UI Snippets UI-Snippets"
     },
     
 
 
     {
-        "link": "/SEO",
+        "link": "/Copilot/CopilotSEO",
         "keywords": "SEO Website optimization Page speed"
     },
     {
-        "link": "/Interview",
+        "link": "/Copilot/CopilotInterview",
         "keywords": "Interview Preparation"
     },
 
@@ -33,7 +33,7 @@
         "keywords": "CSS Documentation"
     },
     {
-        "link": "/HTML-CSS/Generators",
+        "link": "/Copilot/CopilotHTML-CSS/Generators",
         "keywords": "Button Navbar SVG CSS Generator Flex"
     },
     {
@@ -48,83 +48,83 @@
         "keywords": "JS Documentation JavaScript"
     },
     {
-        "link": "/JavaScript/Basics/Arrays/Functions",
+        "link": "/Copilot/CopilotJavaScript/Basics/Arrays/Functions",
         "keywords": "Array Functions .reduce() .forEach() .filter() .find() .map(). .include() .toString() .join() .every() .some() .splice"
     },
     {
-        "link": "/JavaScript/Basics/Arrays/Destructuring-and-Concatenation",
+        "link": "/Copilot/CopilotJavaScript/Basics/Arrays/Destructuring-and-Concatenation",
         "keywords": "Array Destructuring Concatenation"
     },
     {
-        "link": "/JavaScript/Basics/Objects/reading-dynamic-Properties",
+        "link": "/Copilot/CopilotJavaScript/Basics/Objects/reading-dynamic-Properties",
         "keywords": "Object reading dynamic properties"
     },
     {
-        "link": "/JavaScript/Basics/Objects/Functions",
+        "link": "/Copilot/CopilotJavaScript/Basics/Objects/Functions",
         "keywords": "Object Functions .keys() .values() .entries()"
     },
     {
-        "link": "/JavaScript/Basics/Objects/Destructuring-and-Concatenation",
+        "link": "/Copilot/CopilotJavaScript/Basics/Objects/Destructuring-and-Concatenation",
         "keywords": "Object Destructuring Concatenation default value"
     },
     {
-        "link": "/JavaScript/Basics/Objects/Optional-Chaining",
+        "link": "/Copilot/CopilotJavaScript/Basics/Objects/Optional-Chaining",
         "keywords": "Object Array function optional chaining"
     },
     {
-        "link": "/JavaScript/Basics/Objects/Immutability",
+        "link": "/Copilot/CopilotJavaScript/Basics/Objects/Immutability",
         "keywords": "Array Object Immutability Shallow"
     },
 
     {
-        "link": "/JavaScript/Basics/Classes/Basics",
+        "link": "/Copilot/CopilotJavaScript/Basics/Classes/Basics",
         "keywords": "JS classes basic overall intro example"
     },
     {
-        "link": "/JavaScript/Basics/Classes/Getters-Setters",
+        "link": "/Copilot/CopilotJavaScript/Basics/Classes/Getters-Setters",
         "keywords": "JS classes getters setters"
     },
     {
-        "link": "/JavaScript/Basics/Classes/Inheritance-and-extend",
+        "link": "/Copilot/CopilotJavaScript/Basics/Classes/Inheritance-and-extend",
         "keywords": "JS classes classical Prototypal inheritance extends"
     },
     {
-        "link": "/JavaScript/Basics/Classes/Class-vs-Function",
+        "link": "/Copilot/CopilotJavaScript/Basics/Classes/Class-vs-Function",
         "keywords": "JS classes function prototype chain"
     },
     {
-        "link": "/JavaScript/Basics/Classes/Static-Methods-and-Chaining",
+        "link": "/Copilot/CopilotJavaScript/Basics/Classes/Static-Methods-and-Chaining",
         "keywords": "Classes static Methods chaining"
     },
     {
-        "link": "/JavaScript/Basics/Classes/Public-Private",
+        "link": "/Copilot/CopilotJavaScript/Basics/Classes/Public-Private",
         "keywords": "JS classes Public Private class fields private instance methods"
     },
 
     {
-        "link": "/JavaScript/Basics/Functions",
+        "link": "/Copilot/CopilotJavaScript/Basics/Functions",
         "keywords": "JS arrow functions Passing functions as arguments"
     },
 
 
     {
-        "link": "/JavaScript/Advanced/Nullish-Coalescing",
+        "link": "/Copilot/CopilotJavaScript/Advanced/Nullish-Coalescing",
         "keywords": "Nullish coalescing default value"
     },
     {
-        "link": "/JavaScript/Advanced/Try-Catch",
+        "link": "/Copilot/CopilotJavaScript/Advanced/Try-Catch",
         "keywords": "Try Catch"
     },
     {
-        "link": "/JavaScript/Advanced/Asynchronous-Callbacks",
+        "link": "/Copilot/CopilotJavaScript/Advanced/Asynchronous-Callbacks",
         "keywords": "Asynchronous Callbacks promises async await"
     },
     {
-        "link": "/JavaScript/Advanced/Fetch-and-JSON",
+        "link": "/Copilot/CopilotJavaScript/Advanced/Fetch-and-JSON",
         "keywords": "Fetch API JSON"
     },
     {
-        "link": "/JavaScript/Advanced/ES-Modules",
+        "link": "/Copilot/CopilotJavaScript/Advanced/ES-Modules",
         "keywords": "ES Modules dynamic import export"
     },
     {
@@ -132,7 +132,7 @@
         "keywords": "HTML and JavaScript Query Selector Attributes DOM Misc DOM apprend and prepend"
     },
     {
-        "link": "/JavaScript/Advanced/forLoop",
+        "link": "/Copilot/CopilotJavaScript/Advanced/forLoop",
         "keywords": "forLoop for Loop for of for in"
     },
     {
@@ -140,43 +140,43 @@
         "keywords": "JS Web components"
     },
     {
-        "link": "/JavaScript/Advanced/IFFEE",
+        "link": "/Copilot/CopilotJavaScript/Advanced/IFFEE",
         "keywords": "IFFEE functions"
     },
 
 
     {
-        "link": "/JavaScript/How-JS-works/Closure",
+        "link": "/Copilot/CopilotJavaScript/How-JS-works/Closure",
         "keywords": "Closure function scope"
     },
     {
-        "link": "/JavaScript/How-JS-works/Event-Loop",
+        "link": "/Copilot/CopilotJavaScript/How-JS-works/Event-Loop",
         "keywords": "Event loop Call stack callback queue"
     },
     {
-        "link": "/JavaScript/How-JS-works/ASI",
+        "link": "/Copilot/CopilotJavaScript/How-JS-works/ASI",
         "keywords": "ASI Automatic Semicolon Insertion"
     },
 
 
     {
-        "link": "/JavaScript/Tools/Module-Bundlers",
+        "link": "/Copilot/CopilotJavaScript/Tools/Module-Bundlers",
         "keywords": "Module Bundlers parcel dynamic imports"
     },
     {
-        "link": "/JavaScript/Tools/EcmaScript",
+        "link": "/Copilot/CopilotJavaScript/Tools/EcmaScript",
         "keywords": "EcmaScript"
     },
     {
-        "link": "/JavaScript/Tools/Package-Managers",
+        "link": "/Copilot/CopilotJavaScript/Tools/Package-Managers",
         "keywords": "Package Managers npm Node.js dependencies devDependencies"
     },
     {
-        "link": "/JavaScript/Tools/ESLint",
+        "link": "/Copilot/CopilotJavaScript/Tools/ESLint",
         "keywords": "ESLint"
     },
     {
-        "link": "/JavaScript/Tools/APIs",
+        "link": "/Copilot/CopilotJavaScript/Tools/APIs",
         "keywords": "JS APIs public data "
     },
 
@@ -184,52 +184,52 @@
 
 
     {
-        "link": "/React/Introduction-and-Install",
+        "link": "/Copilot/CopilotReact/Introduction-and-Install",
         "keywords": "React intro React installation React version ReactDOM React DOM React Root"
     },
     {
-        "link": "/React/JSX/Overvall",
+        "link": "/Copilot/CopilotReact/JSX/Overvall",
         "keywords": "JSX intro React classes Self-Closing tags"
     },
     {
-        "link": "/React/JSX/Expressions",
+        "link": "/Copilot/CopilotReact/JSX/Expressions",
         "keywords": "JSX Expressions"
     },
     {
-        "link": "/React/JSX/Children",
+        "link": "/Copilot/CopilotReact/JSX/Children",
         "keywords": "JSX children"
     },
     {
-        "link": "/React/JSX/Fragments",
+        "link": "/Copilot/CopilotReact/JSX/Fragments",
         "keywords": "JSX Fragments return nothing JSX Spread Attributes"
     },
     {
-        "link": "/React/JSX/Gotchas",
+        "link": "/Copilot/CopilotReact/JSX/Gotchas",
         "keywords": ""
     },
     {
-        "link": "/React/JSX/Notation",
+        "link": "/Copilot/CopilotReact/JSX/Notation",
         "keywords": "Dot Notation Point in React"
     },
     {
-        "link": "/React/JSX/inner-HTML",
+        "link": "/Copilot/CopilotReact/JSX/inner-HTML",
         "keywords": "Dangerously set inner HTML setinnerHTML"
     },
     {
-        "link": "/React/JSX/Arrays",
+        "link": "/Copilot/CopilotReact/JSX/Arrays",
         "keywords": "Arrays in JSX Lists in React"
     },
 
     {
-        "link": "/React/Components/Overall",
+        "link": "/Copilot/CopilotReact/Components/Overall",
         "keywords": "Components intro"
     },
     {
-        "link": "/React/Components/Props",
+        "link": "/Copilot/CopilotReact/Components/Props",
         "keywords": "React props destructuring"
     },
     {
-        "link": "/React/Components/Conditional-Rendering",
+        "link": "/Copilot/CopilotReact/Components/Conditional-Rendering",
         "keywords": "Components conditional rendering"
     },
     {
@@ -238,104 +238,104 @@
     },
 
     {
-        "link": "/React/Hooks/useState",
+        "link": "/Copilot/CopilotReact/Hooks/useState",
         "keywords": "useState"
     },
     {
-        "link": "/React/Hooks/useEffect",
+        "link": "/Copilot/CopilotReact/Hooks/useEffect",
         "keywords": "useEffect"
     },
     {
-        "link": "/React/Hooks/useLayoutEffect",
+        "link": "/Copilot/CopilotReact/Hooks/useLayoutEffect",
         "keywords": "useLayouEffect"
     },
     {
-        "link": "/React/Hooks/Custom",
+        "link": "/Copilot/CopilotReact/Hooks/Custom",
         "keywords": "Custom Hooks"
     },
     {
-        "link": "/React/Hooks/State-Effect",
+        "link": "/Copilot/CopilotReact/Hooks/State-Effect",
         "keywords": "State in Effect useFetch API"
     },
 
     {
-        "link": "/React/User-Input/Forms",
+        "link": "/Copilot/CopilotReact/User-Input/Forms",
         "keywords": "User input forms text textArea"
     },
     {
-        "link": "/React/User-Input/Accessible",
+        "link": "/Copilot/CopilotReact/User-Input/Accessible",
         "keywords": "Accessible Forms html abilities"
     },
 
     {
-        "link": "/React/Fetch",
+        "link": "/Copilot/CopilotReact/Fetch",
         "keywords": "Fetch API in React Fetch Errors Loading State Async Await"
     },
     {
-        "link": "/React/refs",
+        "link": "/Copilot/CopilotReact/refs",
         "keywords": "refs reference for DOM element"
     },
 
     {
-        "link": "/React/Context",
+        "link": "/Copilot/CopilotReact/Context",
         "keywords": "Context global states"
     },
 
     {
-        "link": "/React/Tools-Libraries/React-Router-Dom",
+        "link": "/Copilot/CopilotReact/Tools-Libraries/React-Router-Dom",
         "keywords": "React-Router-Dom React router"
     },
     {
-        "link": "/React/Tools-Libraries/Preact",
+        "link": "/Copilot/CopilotReact/Tools-Libraries/Preact",
         "keywords": "Preact start"
     },
     {
-        "link": "/React/Tools-Libraries/Redux",
+        "link": "/Copilot/CopilotReact/Tools-Libraries/Redux",
         "keywords": "Redux"
     },
     {
-        "link": "/React/Tools-Libraries/Netifly",
+        "link": "/Copilot/CopilotReact/Tools-Libraries/Netifly",
         "keywords": "Deploy to Netifly"
     },
     {
-        "link": "/React/Tools-Libraries/Dev-Tools",
+        "link": "/Copilot/CopilotReact/Tools-Libraries/Dev-Tools",
         "keywords": "React Dev Tools Developer Tools"
     },
     {
-        "link": "/React/Tools-Libraries/UI-Kits",
+        "link": "/Copilot/CopilotReact/Tools-Libraries/UI-Kits",
         "keywords": "React UI Kits"
     },
 
 
     {
-        "link": "/React/Local-Storage",
+        "link": "/Copilot/CopilotReact/Local-Storage",
         "keywords": "Local Storage"
     },
     {
-        "link": "/React/Lazy",
+        "link": "/Copilot/CopilotReact/Lazy",
         "keywords": "React Lazy Load LazyLoad "
     },
     {
-        "link": "/React/Class-Components",
+        "link": "/Copilot/CopilotReact/Class-Components",
         "keywords": "React Class Components"
     },
     {
-        "link": "/React/Synthetic-Events",
+        "link": "/Copilot/CopilotReact/Synthetic-Events",
         "keywords": "Synthetic Events"
     },
     {
-        "link": "/React/Styles",
+        "link": "/Copilot/CopilotReact/Styles",
         "keywords": "Styles in React CLSX Style Classes Style Libraries dynamic styles"
     },
 
 
 
     {
-        "link": "/Git-Github/How-git-works",
+        "link": "/Copilot/CopilotGit-Github/How-git-works",
         "keywords": "Git intro How Git works upstream downstream Git Head Git Archive Git Ops Git stash aliases templates"
     },
     {
-        "link": "/Git-Github/Configuration-and-Setup",
+        "link": "/Copilot/CopilotGit-Github/Configuration-and-Setup",
         "keywords": "Setup Configuraton init clone -bare config remote push"
     },
     {
@@ -347,23 +347,23 @@
         "keywords": "Compare Commits Inspecting Repository status log blame diff"
     },
     {
-        "link": "/Git-Github/Gitignore",
+        "link": "/Copilot/CopilotGit-Github/Gitignore",
         "keywords": "git ignore "
     },
     {
-        "link": "/Git-Github/tags",
+        "link": "/Copilot/CopilotGit-Github/tags",
         "keywords": "git tags "
     },
     {
-        "link": "/Git-Github/branches",
+        "link": "/Copilot/CopilotGit-Github/branches",
         "keywords": "git branches merge "
     },
     {
-        "link": "/Git-Github/Collaborating/Synching",
+        "link": "/Copilot/CopilotGit-Github/Collaborating/Synching",
         "keywords": "Synching remote fetch pull"
     },
     {
-        "link": "/Git-Github/Collaborating/Workflows",
+        "link": "/Copilot/CopilotGit-Github/Collaborating/Workflows",
         "keywords": "Workflows Trunk-based development"
     },
     {
