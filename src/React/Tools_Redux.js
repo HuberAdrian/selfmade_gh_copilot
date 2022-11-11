@@ -7,13 +7,13 @@ function Tools_Redux() {
   return (
     <div>
         <Navbar />
-        <Link to="/React/Tools-Libraries/Redux/Intro">
+        <Link to="/Copilot/React/Tools-Libraries/Redux/Intro">
         <Direction caption="Intro" description="" />
         </Link>
-        <Link to="/React/Tools-Libraries/Redux/Setup">
+        <Link to="/Copilot/React/Tools-Libraries/Redux/Setup">
         <Direction caption="Setup" description="" />
         </Link>
-        <Link to="/React/Tools-Libraries/Redux/Toolkit">
+        <Link to="/Copilot/React/Tools-Libraries/Redux/Toolkit">
         <Direction caption="Redux Toolkit" description="" />
         </Link>
     </div>

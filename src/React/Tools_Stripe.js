@@ -7,13 +7,13 @@ function Tools_Stripe() {
   return (
     <div>
         <Navbar />
-        <Link to="/React/Tools-Libraries/Stripe-Checkout/Notes">
+        <Link to="/Copilot/React/Tools-Libraries/Stripe-Checkout/Notes">
         <Direction caption="Stripe Checkout Integration" description="" />
         </Link>
-        <Link to="/React/Tools-Libraries/Stripe-Checkout/Create">
+        <Link to="/Copilot/React/Tools-Libraries/Stripe-Checkout/Create">
         <Direction caption="Stripe Checkout Integration" description="" />
         </Link>
-        <Link to="/React/Tools-Libraries/Stripe-Checkout/Integrate">
+        <Link to="/Copilot/React/Tools-Libraries/Stripe-Checkout/Integrate">
         <Direction caption="Stripe Checkout Integration" description="" />
         </Link>
     </div>

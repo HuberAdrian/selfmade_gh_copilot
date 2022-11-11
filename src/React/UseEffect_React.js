@@ -7,13 +7,13 @@ function UseEffect_React() {
   return (
     <div>
         <Navbar />
-        <Link to="/React/Hooks/useEffect/Intro">
+        <Link to="/Copilot/React/Hooks/useEffect/Intro">
             <Direction caption="Intro" description="Intro, Example, Rules" />
         </Link>
-        <Link to="/React/Hooks/useEffect/CleanUp">
+        <Link to="/Copilot/React/Hooks/useEffect/CleanUp">
             <Direction caption="Effect with clean up" description="Some JavaScript methods require cleanup" />
         </Link>
-        <Link to="/React/Hooks/useEffect/Dependencies">
+        <Link to="/Copilot/React/Hooks/useEffect/Dependencies">
             <Direction caption="Effect dependencies" description="run useEffect on certain re-render functions" />
         </Link>
     </div>

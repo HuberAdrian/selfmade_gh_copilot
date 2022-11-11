@@ -7,19 +7,19 @@ function Hooks_React() {
   return (
     <div>
         <Navbar />
-        <Link to="/React/Hooks/useState">
+        <Link to="/Copilot/React/Hooks/useState">
             <Direction caption="useState" description="" />
         </Link>
-        <Link to="/React/Hooks/useEffect">
+        <Link to="/Copilot/React/Hooks/useEffect">
             <Direction caption="useEffect" description="" />
         </Link>
-        <Link to="/React/Hooks/useLayoutEffect">
+        <Link to="/Copilot/React/Hooks/useLayoutEffect">
             <Direction caption="useLayoutEffect" description="" />
         </Link>
-        <Link to="/React/Hooks/Custom">
+        <Link to="/Copilot/React/Hooks/Custom">
             <Direction caption="Custom Hooks" description="" />
         </Link>
-        <Link to="/React/Hooks/State-Effect">
+        <Link to="/Copilot/React/Hooks/State-Effect">
             <Direction caption="State inside effect" description="" />
         </Link>
     </div>
