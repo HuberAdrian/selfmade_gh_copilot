@@ -7,10 +7,10 @@ function Git_Collaborating() {
   return (
     <div>
         <Navbar />
-        <Link to="/Git-Github/Collaborating/Synching">
+        <Link to="/Copilot/Git-Github/Collaborating/Synching">
         <Direction caption="Synching" description="" />
       </Link>
-      <Link to="/Git-Github/Collaborating/Workflows">
+      <Link to="/Copilot/Git-Github/Collaborating/Workflows">
         <Direction caption="Workflows" description="" />
       </Link>
     </div>

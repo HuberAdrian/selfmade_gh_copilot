@@ -7,19 +7,19 @@ function JS_Tools() {
   return (
     <div>
     <Navbar />
-    <Link to="/JavaScript/Tools/Module-Bundlers">
+    <Link to="/Copilot/JavaScript/Tools/Module-Bundlers">
       <Direction caption="Module Bundlers" description="understands imports and merges files together" />
     </Link>
-    <Link to="/JavaScript/Tools/EcmaScript">
+    <Link to="/Copilot/JavaScript/Tools/EcmaScript">
       <Direction caption="EcmaScript" description="" />
     </Link>
-    <Link to="/JavaScript/Tools/Package-Managers">
+    <Link to="/Copilot/JavaScript/Tools/Package-Managers">
       <Direction caption="Package Managers" description="" />
     </Link>
-    <Link to="/JavaScript/Tools/ESLint">
+    <Link to="/Copilot/JavaScript/Tools/ESLint">
       <Direction caption="ESLint" description="" />
     </Link>
-    <Link to="/JavaScript/Tools/APIs">
+    <Link to="/Copilot/JavaScript/Tools/APIs">
       <Direction caption="APIs" description="APIs, Ressources, ..." />
     </Link>
     </div>

@@ -7,19 +7,19 @@ function JS_Basics_Objects() {
   return (
     <div>
         <Navbar />
-    <Link to="/JavaScript/Basics/Objects/reading-dynamic-Properties">
+    <Link to="/Copilot/JavaScript/Basics/Objects/reading-dynamic-Properties">
       <Direction caption="Reading dynamic properties" description="" />
     </Link>
-    <Link to="/JavaScript/Basics/Objects/Functions">
+    <Link to="/Copilot/JavaScript/Basics/Objects/Functions">
       <Direction caption="Functions" description="call functions on objects" />
     </Link>
-    <Link to="/JavaScript/Basics/Objects/Destructuring-and-Concatenation">
+    <Link to="/Copilot/JavaScript/Basics/Objects/Destructuring-and-Concatenation">
       <Direction caption="Destructuring and Concatenation" description="" />
     </Link>
-    <Link to="/JavaScript/Basics/Objects/Optional-Chaining">
+    <Link to="/Copilot/JavaScript/Basics/Objects/Optional-Chaining">
       <Direction caption="Optional Chaining" description="access to a property without risking an error" />
     </Link>
-    <Link to="/JavaScript/Basics/Objects/Immutability">
+    <Link to="/Copilot/JavaScript/Basics/Objects/Immutability">
       <Direction caption="Immutability" description="" />
     </Link>
     </div>

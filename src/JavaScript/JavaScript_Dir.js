@@ -9,19 +9,19 @@ function JavaScript_Dir() {
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="noopener noreferrer" target="_blank">
       <Direction caption="Documentation" description="" />
     </a>
-    <Link to="/JavaScript/Basics">
+    <Link to="/Copilot/JavaScript/Basics">
       <Direction caption="Basics (personal notes)" description="Operatons on strings, Arrays, Objects, Classes, Functions" />
     </Link>
-    <Link to="/JavaScript/Advanced">
+    <Link to="/CopilotCopilot//JavaScript/Advanced">
       <Direction caption="Avanced (personal notes)" description="" />
     </Link>
-    <Link to="/JavaScript/How-JS-works">
+    <Link to="/Copilot/JavaScript/How-JS-works">
       <Direction caption="How JS works under the hood" description="" />
     </Link>
-    <Link to="/JavaScript/Tools">
+    <Link to="/Copilot/JavaScript/Tools">
       <Direction caption="Tools" description="to make development simpler" />
     </Link>
-    <Link to="/">
+    <Link to="/Copilot/">
       <Direction caption="Best practices" description="" />
     </Link>
   </div>;
