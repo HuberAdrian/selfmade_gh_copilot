@@ -34,7 +34,9 @@ Folder Structure (March 2022): <br>
 - One large CSS file instead of multiple small
 - Export multiple (similar) Components from one .js file, e.g. subdirectories
 
-
+### !Important!
+I changed the links for my website, if you want to host it yourslf, you might want to change the 
+"homepage": "https://adrian-huber.org/Copilot" in the package,json file
 
 
 
